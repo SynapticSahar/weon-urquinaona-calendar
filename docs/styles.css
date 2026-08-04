@@ -133,8 +133,26 @@ footer { color: var(--muted); font-size: 12px; margin-top: 18px; }
   .toolbar { grid-template-columns: 1fr; padding: 12px; }
   .summary { padding: 12px; }
   .actions { grid-template-columns: 1fr; }
-  .schedule { grid-template-columns: 1fr; gap: 10px; }
+  .schedule {
+    display: flex;
+    gap: 12px;
+    margin: 0 -12px;
+    overflow-x: auto;
+    padding: 0 12px 14px;
+    scroll-padding-inline: 12px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+  .day {
+    display: flex;
+    flex: 0 0 min(88vw, 380px);
+    flex-direction: column;
+    max-height: 72vh;
+    scroll-snap-align: start;
+    box-shadow: var(--shadow);
+  }
   .day-header { padding: 12px; }
+  .class-list { overflow-y: auto; -webkit-overflow-scrolling: touch; }
   .class-card { padding: 12px; }
   .class-row { font-size: 14px; gap: 3px 6px; }
   .class-row input { width: 20px; min-height: 20px; }
