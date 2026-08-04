@@ -39,9 +39,13 @@
     </section>
 
     <section class="summary">
-      <strong id="selectionCount">0 classes selected</strong>
+      <div class="summary-info">
+        <strong id="selectionCount">0 classes selected</strong>
+        <span class="sync-status" id="syncStatus" role="status" aria-live="polite"></span>
+      </div>
       <div class="actions">
         <button class="secondary" id="clearWeek" type="button">Clear selected week</button>
+        <button class="secondary" id="syncGoogle" type="button">Sync to Google Calendar</button>
         <button class="primary" id="downloadIcs" type="button">Download selected classes</button>
       </div>
     </section>
@@ -52,6 +56,13 @@
       <p>The timetable is read from the public class schedule. Verify last-minute changes with the gym.</p>
     </footer>
   </main>
+  <script>
+    window.WEON_CONFIG = {
+      googleClientId: "",
+      googleCalendarId: "primary"
+    };
+  </script>
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
   <script src="app.js"></script>
 </body>
 </html>

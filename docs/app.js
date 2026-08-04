@@ -1,4 +1,7 @@
 const STORAGE_KEY = "weon-urquinaona-selected-v1";
+const GOOGLE_CALENDAR_SCOPE = "https://www.googleapis.com/auth/calendar.events";
+const GOOGLE_SYNC_SOURCE = "weon-weekly-planner";
+const BASE32_HEX = "0123456789abcdefghijklmnopqrstuv";
 const dayOrder = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 const dayMap = {
   Lunes: "Monday", Martes: "Tuesday", Miércoles: "Wednesday", Miercoles: "Wednesday",
@@ -14,6 +17,10 @@ const searchEl = document.querySelector("#search");
 const timeFilterEl = document.querySelector("#timeFilter");
 const weekFilterEl = document.querySelector("#weekFilter");
 const countEl = document.querySelector("#selectionCount");
+const syncGoogleEl = document.querySelector("#syncGoogle");
+const syncStatusEl = document.querySelector("#syncStatus");
+
+let googleAccessToken = "";
 
 function localDate(date) {
   return new Date(`${date}T12:00:00`);
@@ -33,6 +40,7 @@ function prettyDate(date) {
 function saveSelection() {
   localStorage.setItem(STORAGE_KEY, JSON.stringify([...selected]));
   countEl.textContent = `${selected.size} class${selected.size === 1 ? "" : "es"} selected`;
+  syncGoogleEl.disabled = selected.size === 0;
 }
 
 function timeMatches(start, filter) {
@@ -107,8 +115,14 @@ function dateTime(date, time) {
   return `${date.replaceAll("-", "")}T${time.replace(":", "")}00`;
 }
 
+function selectedClasses() {
+  return data.classes
+    .filter(item => selected.has(item.id))
+    .sort((a, b) => `${a.date}${a.start}`.localeCompare(`${b.date}${b.start}`));
+}
+
 function downloadSelected() {
-  const classes = data.classes.filter(item => selected.has(item.id)).sort((a, b) => `${a.date}${a.start}`.localeCompare(`${b.date}${b.start}`));
+  const classes = selectedClasses();
   if (!classes.length) {
     alert("Select at least one class first.");
     return;
@@ -139,6 +153,216 @@ function downloadSelected() {
   link.download = "my-weon-workouts.ics";
   link.click();
   URL.revokeObjectURL(link.href);
+}
+
+function googleConfig() {
+  return {
+    clientId: (window.WEON_CONFIG?.googleClientId || "").trim(),
+    calendarId: (window.WEON_CONFIG?.googleCalendarId || "primary").trim() || "primary",
+  };
+}
+
+function setSyncStatus(message, isError = false) {
+  syncStatusEl.textContent = message;
+  syncStatusEl.classList.toggle("error", isError);
+}
+
+function waitForGoogleIdentity() {
+  if (window.google?.accounts?.oauth2) return Promise.resolve();
+
+  return new Promise((resolve, reject) => {
+    const startedAt = Date.now();
+    const timer = setInterval(() => {
+      if (window.google?.accounts?.oauth2) {
+        clearInterval(timer);
+        resolve();
+      } else if (Date.now() - startedAt > 10_000) {
+        clearInterval(timer);
+        reject(new Error("Google sign-in did not load. Refresh the page and try again."));
+      }
+    }, 100);
+  });
+}
+
+async function authorizeGoogleCalendar() {
+  const { clientId } = googleConfig();
+  if (!clientId) {
+    throw new Error("Add a Google OAuth client ID in docs/index.html to enable calendar sync.");
+  }
+
+  await waitForGoogleIdentity();
+
+  return new Promise((resolve, reject) => {
+    const client = google.accounts.oauth2.initTokenClient({
+      client_id: clientId,
+      scope: GOOGLE_CALENDAR_SCOPE,
+      callback: response => {
+        if (response.error) {
+          reject(new Error(response.error_description || response.error));
+          return;
+        }
+        googleAccessToken = response.access_token;
+        resolve(googleAccessToken);
+      },
+      error_callback: error => reject(new Error(error.message || "Google sign-in was cancelled.")),
+    });
+
+    client.requestAccessToken({ prompt: googleAccessToken ? "" : "consent" });
+  });
+}
+
+async function googleCalendarRequest(path, options = {}) {
+  const response = await fetch(`https://www.googleapis.com/calendar/v3/${path}`, {
+    ...options,
+    headers: {
+      Authorization: `Bearer ${googleAccessToken}`,
+      "Content-Type": "application/json",
+      ...(options.headers || {}),
+    },
+  });
+
+  if (response.status === 204) return null;
+  const payload = await response.json().catch(() => null);
+  if (!response.ok) {
+    const error = new Error(payload?.error?.message || `Google Calendar request failed with HTTP ${response.status}`);
+    error.status = response.status;
+    throw error;
+  }
+  return payload;
+}
+
+function base32Hex(value) {
+  const bytes = new TextEncoder().encode(value);
+  let bits = "";
+  let output = "";
+
+  for (const byte of bytes) {
+    bits += byte.toString(2).padStart(8, "0");
+    while (bits.length >= 5) {
+      output += BASE32_HEX[parseInt(bits.slice(0, 5), 2)];
+      bits = bits.slice(5);
+    }
+  }
+
+  if (bits) output += BASE32_HEX[parseInt(bits.padEnd(5, "0"), 2)];
+  return output;
+}
+
+function googleEventId(item) {
+  return `a${base32Hex(`weon-${item.id}`).slice(0, 180)}`;
+}
+
+function googleDateTime(item, time) {
+  return `${item.date}T${time}:00`;
+}
+
+function googleEventPayload(item) {
+  const timezone = data.timezone || "Europe/Madrid";
+  return {
+    summary: `${item.name} | ${item.room}`,
+    location: item.room,
+    description: `${item.start} | ${item.name} | ${item.room}\nSynced from Weekly Planner.`,
+    start: { dateTime: googleDateTime(item, item.start), timeZone: timezone },
+    end: { dateTime: googleDateTime(item, item.end), timeZone: timezone },
+    extendedProperties: {
+      private: {
+        source: GOOGLE_SYNC_SOURCE,
+        classId: item.id,
+      },
+    },
+    reminders: { useDefault: true },
+  };
+}
+
+function calendarRange() {
+  const dates = [...new Set(data.classes.map(item => item.date))].sort();
+  const start = new Date(`${dates[0]}T00:00:00`);
+  const end = new Date(`${dates[dates.length - 1]}T23:59:59`);
+  return { timeMin: start.toISOString(), timeMax: end.toISOString() };
+}
+
+async function listSyncedGoogleEvents() {
+  const { calendarId } = googleConfig();
+  const params = new URLSearchParams({
+    ...calendarRange(),
+    maxResults: "2500",
+    singleEvents: "true",
+    showDeleted: "false",
+  });
+  params.append("privateExtendedProperty", `source=${GOOGLE_SYNC_SOURCE}`);
+
+  const payload = await googleCalendarRequest(`calendars/${encodeURIComponent(calendarId)}/events?${params}`);
+  return payload.items || [];
+}
+
+async function removeDeselectedGoogleEvents(selectedIds) {
+  const { calendarId } = googleConfig();
+  const events = await listSyncedGoogleEvents();
+  const stale = events.filter(event => {
+    const classId = event.extendedProperties?.private?.classId;
+    return classId && !selectedIds.has(classId);
+  });
+
+  for (const event of stale) {
+    await googleCalendarRequest(`calendars/${encodeURIComponent(calendarId)}/events/${encodeURIComponent(event.id)}`, {
+      method: "DELETE",
+    });
+  }
+
+  return stale.length;
+}
+
+async function upsertGoogleEvent(item) {
+  const { calendarId } = googleConfig();
+  const eventId = googleEventId(item);
+  const calendarPath = `calendars/${encodeURIComponent(calendarId)}/events`;
+  const event = { id: eventId, ...googleEventPayload(item) };
+
+  try {
+    await googleCalendarRequest(calendarPath, {
+      method: "POST",
+      body: JSON.stringify(event),
+    });
+  } catch (error) {
+    if (error.status !== 409) throw error;
+    await googleCalendarRequest(`${calendarPath}/${eventId}`, {
+      method: "PUT",
+      body: JSON.stringify(event),
+    });
+  }
+}
+
+async function syncSelectedToGoogle() {
+  const classes = selectedClasses();
+  if (!classes.length) {
+    alert("Select at least one class first.");
+    return;
+  }
+
+  const originalText = syncGoogleEl.textContent;
+  syncGoogleEl.disabled = true;
+  syncGoogleEl.textContent = "Syncing...";
+  setSyncStatus("Connecting to Google Calendar...");
+
+  try {
+    await authorizeGoogleCalendar();
+    const selectedIds = new Set(classes.map(item => item.id));
+    const removed = await removeDeselectedGoogleEvents(selectedIds);
+
+    for (let index = 0; index < classes.length; index += 1) {
+      await upsertGoogleEvent(classes[index]);
+      setSyncStatus(`Syncing ${index + 1}/${classes.length} classes...`);
+    }
+
+    const removedText = removed ? ` Removed ${removed} deselected class${removed === 1 ? "" : "es"}.` : "";
+    setSyncStatus(`Synced ${classes.length} class${classes.length === 1 ? "" : "es"} to Google Calendar.${removedText}`);
+  } catch (error) {
+    console.error(error);
+    setSyncStatus(error.message, true);
+  } finally {
+    syncGoogleEl.textContent = originalText;
+    syncGoogleEl.disabled = selected.size === 0;
+  }
 }
 
 async function init() {
@@ -172,6 +396,7 @@ searchEl.addEventListener("input", render);
 timeFilterEl.addEventListener("change", render);
 weekFilterEl.addEventListener("change", render);
 document.querySelector("#downloadIcs").addEventListener("click", downloadSelected);
+syncGoogleEl.addEventListener("click", syncSelectedToGoogle);
 document.querySelector("#clearWeek").addEventListener("click", () => {
   const week = weekFilterEl.value;
   for (const item of data.classes) if (mondayOf(item.date) === week) selected.delete(item.id);
