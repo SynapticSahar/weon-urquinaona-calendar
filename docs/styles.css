@@ -37,11 +37,12 @@ button { min-height: 42px; border-radius: 10px; padding: 0 14px; border: 1px sol
 .class-card { display: block; border: 1px solid var(--line); border-radius: 12px; padding: 10px; margin-bottom: 8px; cursor: pointer; transition: .12s ease; }
 .class-card:hover { transform: translateY(-1px); }
 .class-card.selected { background: var(--selected); border-color: #9eb88b; }
-.class-top { display: flex; gap: 8px; align-items: flex-start; }
-.class-top input { width: 18px; min-height: 18px; margin: 1px 0 0; }
-.class-name { font-size: 14px; font-weight: 750; line-height: 1.2; }
-.class-time { font-size: 13px; font-variant-numeric: tabular-nums; margin-top: 5px; }
-.class-room { font-size: 12px; color: var(--muted); margin-top: 3px; }
+.class-row { display: flex; gap: 6px; align-items: flex-start; font-size: 13px; line-height: 1.3; }
+.class-row input { flex: 0 0 auto; width: 18px; min-height: 18px; margin: 0; }
+.class-time { flex: 0 0 auto; font-variant-numeric: tabular-nums; }
+.class-separator { flex: 0 0 auto; color: var(--muted); }
+.class-name { min-width: 0; font-size: 13px; font-weight: 750; line-height: 1.3; overflow-wrap: anywhere; }
+.class-room { min-width: 0; color: var(--muted); overflow-wrap: anywhere; }
 .empty { color: var(--muted); padding: 20px 12px; font-size: 13px; }
 footer { color: var(--muted); font-size: 12px; margin-top: 18px; }
 @media (max-width: 760px) {
