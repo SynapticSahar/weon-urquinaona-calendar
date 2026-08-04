@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111111">
+  <title>We/On Weekly Planner</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">WE/ON URQUINAONA</p>
+        <h1>Pick your classes for the week</h1>
+        <p class="subtitle">Select any number of classes on each day. Your choices stay saved on this device.</p>
+      </div>
+      <div class="status" id="status">Loading schedule…</div>
+    </header>
+
+    <section class="toolbar" aria-label="Schedule filters">
+      <label class="search">
+        <span>Search</span>
+        <input id="search" type="search" placeholder="Pilates, yoga, cycle…">
+      </label>
+      <label>
+        <span>Time</span>
+        <select id="timeFilter">
+          <option value="all">Any time</option>
+          <option value="morning">Morning, before 12:00</option>
+          <option value="afternoon">Afternoon, 12:00–17:00</option>
+          <option value="evening">Evening, after 17:00</option>
+        </select>
+      </label>
+      <label>
+        <span>Week</span>
+        <select id="weekFilter"></select>
+      </label>
+    </section>
+
+    <section class="summary">
+      <strong id="selectionCount">0 classes selected</strong>
+      <div class="actions">
+        <button class="secondary" id="clearWeek" type="button">Clear selected week</button>
+        <button class="primary" id="downloadIcs" type="button">Download selected classes</button>
+      </div>
+    </section>
+
+    <section id="schedule" class="schedule" aria-live="polite"></section>
+
+    <footer>
+      <p>The timetable is read from the public We/On Urquinaona schedule. Verify last-minute changes with the gym.</p>
+    </footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
