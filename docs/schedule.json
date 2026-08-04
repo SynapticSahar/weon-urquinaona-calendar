@@ -2,6 +2,2257 @@
   "source": "https://www.weonclub.com/horarios-clases?club=17",
   "club": "We/On Urquinaona",
   "timezone": "Europe/Madrid",
-  "updated_at": "2026-08-04T12:00:00+02:00",
-  "classes": []
+  "updated_at": "2026-08-04T12:49:41.762476+02:00",
+  "classes": [
+    {
+      "id": "2026-08-03-07-15-08-00-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-03",
+      "day": "Lunes",
+      "start": "07:15",
+      "end": "08:00",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-03-07-15-08-00-zona-cross-we-on-urquinaona",
+      "date": "2026-08-03",
+      "day": "Lunes",
+      "start": "07:15",
+      "end": "08:00",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-03-08-00-08-45-studio-2-we-on-urquinaona",
+      "date": "2026-08-03",
+      "day": "Lunes",
+      "start": "08:00",
+      "end": "08:45",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-03-08-00-08-15-zona-cross-we-on-urquinaona",
+      "date": "2026-08-03",
+      "day": "Lunes",
+      "start": "08:00",
+      "end": "08:15",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-03-08-15-09-00-piscina-we-on-urquinaona",
+      "date": "2026-08-03",
+      "day": "Lunes",
+      "start": "08:15",
+      "end": "09:00",
+      "room": "We/On Urquinaona",
+      "name": "Piscina"
+    },
+    {
+      "id": "2026-08-03-09-00-09-45-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-03",
+      "day": "Lunes",
+      "start": "09:00",
+      "end": "09:45",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-03-09-30-10-15-studio-1-we-on-urquinaona",
+      "date": "2026-08-03",
+      "day": "Lunes",
+      "start": "09:30",
+      "end": "10:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 1"
+    },
+    {
+      "id": "2026-08-03-09-30-10-15-studio-2-we-on-urquinaona",
+      "date": "2026-08-03",
+      "day": "Lunes",
+      "start": "09:30",
+      "end": "10:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-03-10-30-11-15-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-03",
+      "day": "Lunes",
+      "start": "10:30",
+      "end": "11:15",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-03-10-30-11-15-studio-2-we-on-urquinaona",
+      "date": "2026-08-03",
+      "day": "Lunes",
+      "start": "10:30",
+      "end": "11:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-03-11-15-12-00-piscina-we-on-urquinaona",
+      "date": "2026-08-03",
+      "day": "Lunes",
+      "start": "11:15",
+      "end": "12:00",
+      "room": "We/On Urquinaona",
+      "name": "Piscina"
+    },
+    {
+      "id": "2026-08-03-11-30-12-15-studio-1-we-on-urquinaona",
+      "date": "2026-08-03",
+      "day": "Lunes",
+      "start": "11:30",
+      "end": "12:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 1"
+    },
+    {
+      "id": "2026-08-03-11-30-12-15-studio-2-we-on-urquinaona",
+      "date": "2026-08-03",
+      "day": "Lunes",
+      "start": "11:30",
+      "end": "12:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-03-11-30-11-45-zona-cross-we-on-urquinaona",
+      "date": "2026-08-03",
+      "day": "Lunes",
+      "start": "11:30",
+      "end": "11:45",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-03-13-00-13-45-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-03",
+      "day": "Lunes",
+      "start": "13:00",
+      "end": "13:45",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-03-13-30-13-45-zona-cross-we-on-urquinaona",
+      "date": "2026-08-03",
+      "day": "Lunes",
+      "start": "13:30",
+      "end": "13:45",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-03-14-15-15-00-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-03",
+      "day": "Lunes",
+      "start": "14:15",
+      "end": "15:00",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-03-14-15-15-00-studio-2-we-on-urquinaona",
+      "date": "2026-08-03",
+      "day": "Lunes",
+      "start": "14:15",
+      "end": "15:00",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-03-14-30-15-15-studio-1-we-on-urquinaona",
+      "date": "2026-08-03",
+      "day": "Lunes",
+      "start": "14:30",
+      "end": "15:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 1"
+    },
+    {
+      "id": "2026-08-03-17-00-17-45-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-03",
+      "day": "Lunes",
+      "start": "17:00",
+      "end": "17:45",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-03-17-15-18-00-studio-2-we-on-urquinaona",
+      "date": "2026-08-03",
+      "day": "Lunes",
+      "start": "17:15",
+      "end": "18:00",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-03-17-30-18-15-studio-1-we-on-urquinaona",
+      "date": "2026-08-03",
+      "day": "Lunes",
+      "start": "17:30",
+      "end": "18:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 1"
+    },
+    {
+      "id": "2026-08-03-17-30-18-15-zona-funcional-we-on-urquinaona",
+      "date": "2026-08-03",
+      "day": "Lunes",
+      "start": "17:30",
+      "end": "18:15",
+      "room": "We/On Urquinaona",
+      "name": "Zona Funcional"
+    },
+    {
+      "id": "2026-08-03-18-15-19-00-studio-2-we-on-urquinaona",
+      "date": "2026-08-03",
+      "day": "Lunes",
+      "start": "18:15",
+      "end": "19:00",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-03-18-30-19-15-piscina-we-on-urquinaona",
+      "date": "2026-08-03",
+      "day": "Lunes",
+      "start": "18:30",
+      "end": "19:15",
+      "room": "We/On Urquinaona",
+      "name": "Piscina"
+    },
+    {
+      "id": "2026-08-03-18-30-19-15-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-03",
+      "day": "Lunes",
+      "start": "18:30",
+      "end": "19:15",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-03-18-30-19-15-studio-1-we-on-urquinaona",
+      "date": "2026-08-03",
+      "day": "Lunes",
+      "start": "18:30",
+      "end": "19:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 1"
+    },
+    {
+      "id": "2026-08-03-19-15-20-00-studio-2-we-on-urquinaona",
+      "date": "2026-08-03",
+      "day": "Lunes",
+      "start": "19:15",
+      "end": "20:00",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-03-19-15-19-30-zona-cross-we-on-urquinaona",
+      "date": "2026-08-03",
+      "day": "Lunes",
+      "start": "19:15",
+      "end": "19:30",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-03-19-30-20-15-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-03",
+      "day": "Lunes",
+      "start": "19:30",
+      "end": "20:15",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-03-19-30-20-30-studio-1-we-on-urquinaona",
+      "date": "2026-08-03",
+      "day": "Lunes",
+      "start": "19:30",
+      "end": "20:30",
+      "room": "We/On Urquinaona",
+      "name": "Studio 1"
+    },
+    {
+      "id": "2026-08-03-19-30-20-30-zona-cross-we-on-urquinaona",
+      "date": "2026-08-03",
+      "day": "Lunes",
+      "start": "19:30",
+      "end": "20:30",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-03-20-15-21-00-studio-2-we-on-urquinaona",
+      "date": "2026-08-03",
+      "day": "Lunes",
+      "start": "20:15",
+      "end": "21:00",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-03-20-30-21-15-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-03",
+      "day": "Lunes",
+      "start": "20:30",
+      "end": "21:15",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-03-20-30-21-15-studio-1-we-on-urquinaona",
+      "date": "2026-08-03",
+      "day": "Lunes",
+      "start": "20:30",
+      "end": "21:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 1"
+    },
+    {
+      "id": "2026-08-04-07-15-08-00-studio-2-we-on-urquinaona",
+      "date": "2026-08-04",
+      "day": "Martes",
+      "start": "07:15",
+      "end": "08:00",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-04-08-00-08-45-piscina-we-on-urquinaona",
+      "date": "2026-08-04",
+      "day": "Martes",
+      "start": "08:00",
+      "end": "08:45",
+      "room": "We/On Urquinaona",
+      "name": "Piscina"
+    },
+    {
+      "id": "2026-08-04-08-15-08-30-zona-cross-we-on-urquinaona",
+      "date": "2026-08-04",
+      "day": "Martes",
+      "start": "08:15",
+      "end": "08:30",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-04-08-30-09-15-studio-1-we-on-urquinaona",
+      "date": "2026-08-04",
+      "day": "Martes",
+      "start": "08:30",
+      "end": "09:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 1"
+    },
+    {
+      "id": "2026-08-04-09-00-09-45-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-04",
+      "day": "Martes",
+      "start": "09:00",
+      "end": "09:45",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-04-09-15-10-15-studio-2-we-on-urquinaona",
+      "date": "2026-08-04",
+      "day": "Martes",
+      "start": "09:15",
+      "end": "10:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-04-09-30-10-15-studio-1-we-on-urquinaona",
+      "date": "2026-08-04",
+      "day": "Martes",
+      "start": "09:30",
+      "end": "10:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 1"
+    },
+    {
+      "id": "2026-08-04-10-30-11-15-studio-1-we-on-urquinaona",
+      "date": "2026-08-04",
+      "day": "Martes",
+      "start": "10:30",
+      "end": "11:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 1"
+    },
+    {
+      "id": "2026-08-04-10-30-11-15-studio-2-we-on-urquinaona",
+      "date": "2026-08-04",
+      "day": "Martes",
+      "start": "10:30",
+      "end": "11:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-04-11-30-12-15-studio-1-we-on-urquinaona",
+      "date": "2026-08-04",
+      "day": "Martes",
+      "start": "11:30",
+      "end": "12:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 1"
+    },
+    {
+      "id": "2026-08-04-11-30-11-45-zona-cross-we-on-urquinaona",
+      "date": "2026-08-04",
+      "day": "Martes",
+      "start": "11:30",
+      "end": "11:45",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-04-13-00-13-45-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-04",
+      "day": "Martes",
+      "start": "13:00",
+      "end": "13:45",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-04-13-00-13-15-zona-cross-we-on-urquinaona",
+      "date": "2026-08-04",
+      "day": "Martes",
+      "start": "13:00",
+      "end": "13:15",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-04-14-15-15-00-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-04",
+      "day": "Martes",
+      "start": "14:15",
+      "end": "15:00",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-04-14-15-15-00-studio-2-we-on-urquinaona",
+      "date": "2026-08-04",
+      "day": "Martes",
+      "start": "14:15",
+      "end": "15:00",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-04-14-15-15-00-zona-funcional-we-on-urquinaona",
+      "date": "2026-08-04",
+      "day": "Martes",
+      "start": "14:15",
+      "end": "15:00",
+      "room": "We/On Urquinaona",
+      "name": "Zona Funcional"
+    },
+    {
+      "id": "2026-08-04-14-30-15-15-studio-1-we-on-urquinaona",
+      "date": "2026-08-04",
+      "day": "Martes",
+      "start": "14:30",
+      "end": "15:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 1"
+    },
+    {
+      "id": "2026-08-04-15-00-15-15-zona-cross-we-on-urquinaona",
+      "date": "2026-08-04",
+      "day": "Martes",
+      "start": "15:00",
+      "end": "15:15",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-04-15-30-16-15-studio-1-we-on-urquinaona",
+      "date": "2026-08-04",
+      "day": "Martes",
+      "start": "15:30",
+      "end": "16:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 1"
+    },
+    {
+      "id": "2026-08-04-16-15-16-45-studio-1-we-on-urquinaona",
+      "date": "2026-08-04",
+      "day": "Martes",
+      "start": "16:15",
+      "end": "16:45",
+      "room": "We/On Urquinaona",
+      "name": "Studio 1"
+    },
+    {
+      "id": "2026-08-04-17-00-17-45-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-04",
+      "day": "Martes",
+      "start": "17:00",
+      "end": "17:45",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-04-17-30-18-15-studio-1-we-on-urquinaona",
+      "date": "2026-08-04",
+      "day": "Martes",
+      "start": "17:30",
+      "end": "18:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 1"
+    },
+    {
+      "id": "2026-08-04-17-30-17-45-zona-cross-we-on-urquinaona",
+      "date": "2026-08-04",
+      "day": "Martes",
+      "start": "17:30",
+      "end": "17:45",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-04-18-15-19-00-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-04",
+      "day": "Martes",
+      "start": "18:15",
+      "end": "19:00",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-04-18-15-19-00-studio-2-we-on-urquinaona",
+      "date": "2026-08-04",
+      "day": "Martes",
+      "start": "18:15",
+      "end": "19:00",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-04-18-30-19-15-studio-1-we-on-urquinaona",
+      "date": "2026-08-04",
+      "day": "Martes",
+      "start": "18:30",
+      "end": "19:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 1"
+    },
+    {
+      "id": "2026-08-04-18-30-19-15-zona-funcional-we-on-urquinaona",
+      "date": "2026-08-04",
+      "day": "Martes",
+      "start": "18:30",
+      "end": "19:15",
+      "room": "We/On Urquinaona",
+      "name": "Zona Funcional"
+    },
+    {
+      "id": "2026-08-04-19-15-20-00-studio-2-we-on-urquinaona",
+      "date": "2026-08-04",
+      "day": "Martes",
+      "start": "19:15",
+      "end": "20:00",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-04-19-15-19-30-zona-cross-we-on-urquinaona",
+      "date": "2026-08-04",
+      "day": "Martes",
+      "start": "19:15",
+      "end": "19:30",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-04-19-30-20-15-studio-1-we-on-urquinaona",
+      "date": "2026-08-04",
+      "day": "Martes",
+      "start": "19:30",
+      "end": "20:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 1"
+    },
+    {
+      "id": "2026-08-04-19-30-20-30-zona-cross-we-on-urquinaona",
+      "date": "2026-08-04",
+      "day": "Martes",
+      "start": "19:30",
+      "end": "20:30",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-04-20-15-21-15-studio-2-we-on-urquinaona",
+      "date": "2026-08-04",
+      "day": "Martes",
+      "start": "20:15",
+      "end": "21:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-04-20-30-21-15-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-04",
+      "day": "Martes",
+      "start": "20:30",
+      "end": "21:15",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-05-07-15-08-00-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "07:15",
+      "end": "08:00",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-05-07-15-08-00-studio-2-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "07:15",
+      "end": "08:00",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-05-07-15-08-00-zona-cross-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "07:15",
+      "end": "08:00",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-05-07-15-08-15-zona-cross-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "07:15",
+      "end": "08:15",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-05-08-15-09-00-piscina-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "08:15",
+      "end": "09:00",
+      "room": "We/On Urquinaona",
+      "name": "Piscina"
+    },
+    {
+      "id": "2026-08-05-08-15-08-30-zona-cross-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "08:15",
+      "end": "08:30",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-05-08-30-09-15-studio-1-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "08:30",
+      "end": "09:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 1"
+    },
+    {
+      "id": "2026-08-05-08-30-08-45-zona-cross-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "08:30",
+      "end": "08:45",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-05-09-00-09-45-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "09:00",
+      "end": "09:45",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-05-09-15-10-15-studio-2-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "09:15",
+      "end": "10:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-05-09-30-10-15-studio-1-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "09:30",
+      "end": "10:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 1"
+    },
+    {
+      "id": "2026-08-05-09-30-10-15-studio-2-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "09:30",
+      "end": "10:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-05-09-30-09-45-zona-cross-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "09:30",
+      "end": "09:45",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-05-09-45-10-00-zona-cross-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "09:45",
+      "end": "10:00",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-05-10-30-11-15-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "10:30",
+      "end": "11:15",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-05-10-30-11-15-studio-1-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "10:30",
+      "end": "11:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 1"
+    },
+    {
+      "id": "2026-08-05-10-30-11-15-studio-2-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "10:30",
+      "end": "11:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-05-10-30-10-45-zona-cross-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "10:30",
+      "end": "10:45",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-05-10-45-11-00-zona-cross-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "10:45",
+      "end": "11:00",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-05-11-15-12-00-piscina-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "11:15",
+      "end": "12:00",
+      "room": "We/On Urquinaona",
+      "name": "Piscina"
+    },
+    {
+      "id": "2026-08-05-11-30-12-15-studio-1-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "11:30",
+      "end": "12:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 1"
+    },
+    {
+      "id": "2026-08-05-11-30-11-45-zona-cross-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "11:30",
+      "end": "11:45",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-05-13-00-13-45-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "13:00",
+      "end": "13:45",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-05-13-00-13-15-zona-cross-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "13:00",
+      "end": "13:15",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-05-14-15-15-00-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "14:15",
+      "end": "15:00",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-05-14-15-15-00-studio-2-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "14:15",
+      "end": "15:00",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-05-14-15-15-15-zona-cross-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "14:15",
+      "end": "15:15",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-05-14-15-15-00-zona-funcional-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "14:15",
+      "end": "15:00",
+      "room": "We/On Urquinaona",
+      "name": "Zona Funcional"
+    },
+    {
+      "id": "2026-08-05-14-30-15-15-studio-1-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "14:30",
+      "end": "15:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 1"
+    },
+    {
+      "id": "2026-08-05-15-00-15-15-zona-cross-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "15:00",
+      "end": "15:15",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-05-15-30-16-15-studio-1-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "15:30",
+      "end": "16:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 1"
+    },
+    {
+      "id": "2026-08-05-15-30-15-45-zona-cross-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "15:30",
+      "end": "15:45",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-05-16-15-16-45-studio-1-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "16:15",
+      "end": "16:45",
+      "room": "We/On Urquinaona",
+      "name": "Studio 1"
+    },
+    {
+      "id": "2026-08-05-17-00-17-45-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "17:00",
+      "end": "17:45",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-05-17-00-17-15-zona-cross-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "17:00",
+      "end": "17:15",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-05-17-15-18-00-studio-2-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "17:15",
+      "end": "18:00",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-05-17-15-17-30-zona-cross-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "17:15",
+      "end": "17:30",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-05-17-30-18-15-studio-1-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "17:30",
+      "end": "18:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 1"
+    },
+    {
+      "id": "2026-08-05-17-30-17-45-zona-cross-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "17:30",
+      "end": "17:45",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-05-17-30-18-15-zona-funcional-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "17:30",
+      "end": "18:15",
+      "room": "We/On Urquinaona",
+      "name": "Zona Funcional"
+    },
+    {
+      "id": "2026-08-05-18-15-19-00-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "18:15",
+      "end": "19:00",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-05-18-15-19-00-studio-2-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "18:15",
+      "end": "19:00",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-05-18-30-19-15-piscina-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "18:30",
+      "end": "19:15",
+      "room": "We/On Urquinaona",
+      "name": "Piscina"
+    },
+    {
+      "id": "2026-08-05-18-30-19-15-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "18:30",
+      "end": "19:15",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-05-18-30-19-15-studio-1-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "18:30",
+      "end": "19:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 1"
+    },
+    {
+      "id": "2026-08-05-18-30-19-15-zona-funcional-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "18:30",
+      "end": "19:15",
+      "room": "We/On Urquinaona",
+      "name": "Zona Funcional"
+    },
+    {
+      "id": "2026-08-05-19-00-19-15-zona-cross-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "19:00",
+      "end": "19:15",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-05-19-15-20-00-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "19:15",
+      "end": "20:00",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-05-19-15-20-00-studio-2-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "19:15",
+      "end": "20:00",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-05-19-15-19-30-zona-cross-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "19:15",
+      "end": "19:30",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-05-19-30-20-15-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "19:30",
+      "end": "20:15",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-05-19-30-20-30-studio-1-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "19:30",
+      "end": "20:30",
+      "room": "We/On Urquinaona",
+      "name": "Studio 1"
+    },
+    {
+      "id": "2026-08-05-19-30-20-15-studio-1-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "19:30",
+      "end": "20:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 1"
+    },
+    {
+      "id": "2026-08-05-19-30-20-30-zona-cross-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "19:30",
+      "end": "20:30",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-05-20-15-21-15-studio-2-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "20:15",
+      "end": "21:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-05-20-30-21-15-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-05",
+      "day": "Miércoles",
+      "start": "20:30",
+      "end": "21:15",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-06-07-15-08-00-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-06",
+      "day": "Jueves",
+      "start": "07:15",
+      "end": "08:00",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-06-07-15-08-00-studio-2-we-on-urquinaona",
+      "date": "2026-08-06",
+      "day": "Jueves",
+      "start": "07:15",
+      "end": "08:00",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-06-08-00-08-45-piscina-we-on-urquinaona",
+      "date": "2026-08-06",
+      "day": "Jueves",
+      "start": "08:00",
+      "end": "08:45",
+      "room": "We/On Urquinaona",
+      "name": "Piscina"
+    },
+    {
+      "id": "2026-08-06-08-15-08-30-zona-cross-we-on-urquinaona",
+      "date": "2026-08-06",
+      "day": "Jueves",
+      "start": "08:15",
+      "end": "08:30",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-06-09-00-09-45-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-06",
+      "day": "Jueves",
+      "start": "09:00",
+      "end": "09:45",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-06-09-30-10-15-studio-1-we-on-urquinaona",
+      "date": "2026-08-06",
+      "day": "Jueves",
+      "start": "09:30",
+      "end": "10:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 1"
+    },
+    {
+      "id": "2026-08-06-09-30-10-15-studio-2-we-on-urquinaona",
+      "date": "2026-08-06",
+      "day": "Jueves",
+      "start": "09:30",
+      "end": "10:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-06-10-30-11-15-studio-1-we-on-urquinaona",
+      "date": "2026-08-06",
+      "day": "Jueves",
+      "start": "10:30",
+      "end": "11:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 1"
+    },
+    {
+      "id": "2026-08-06-10-30-11-15-studio-2-we-on-urquinaona",
+      "date": "2026-08-06",
+      "day": "Jueves",
+      "start": "10:30",
+      "end": "11:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-06-11-30-11-45-zona-cross-we-on-urquinaona",
+      "date": "2026-08-06",
+      "day": "Jueves",
+      "start": "11:30",
+      "end": "11:45",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-06-11-45-12-00-zona-cross-we-on-urquinaona",
+      "date": "2026-08-06",
+      "day": "Jueves",
+      "start": "11:45",
+      "end": "12:00",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-06-13-00-13-45-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-06",
+      "day": "Jueves",
+      "start": "13:00",
+      "end": "13:45",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-06-13-15-13-30-zona-cross-we-on-urquinaona",
+      "date": "2026-08-06",
+      "day": "Jueves",
+      "start": "13:15",
+      "end": "13:30",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-06-14-15-15-00-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-06",
+      "day": "Jueves",
+      "start": "14:15",
+      "end": "15:00",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-06-14-15-15-00-studio-2-we-on-urquinaona",
+      "date": "2026-08-06",
+      "day": "Jueves",
+      "start": "14:15",
+      "end": "15:00",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-06-14-15-15-00-zona-funcional-we-on-urquinaona",
+      "date": "2026-08-06",
+      "day": "Jueves",
+      "start": "14:15",
+      "end": "15:00",
+      "room": "We/On Urquinaona",
+      "name": "Zona Funcional"
+    },
+    {
+      "id": "2026-08-06-14-30-15-15-studio-1-we-on-urquinaona",
+      "date": "2026-08-06",
+      "day": "Jueves",
+      "start": "14:30",
+      "end": "15:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 1"
+    },
+    {
+      "id": "2026-08-06-15-00-15-15-zona-cross-we-on-urquinaona",
+      "date": "2026-08-06",
+      "day": "Jueves",
+      "start": "15:00",
+      "end": "15:15",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-06-15-15-15-30-zona-cross-we-on-urquinaona",
+      "date": "2026-08-06",
+      "day": "Jueves",
+      "start": "15:15",
+      "end": "15:30",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-06-15-30-16-15-studio-1-we-on-urquinaona",
+      "date": "2026-08-06",
+      "day": "Jueves",
+      "start": "15:30",
+      "end": "16:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 1"
+    },
+    {
+      "id": "2026-08-06-16-15-16-45-studio-1-we-on-urquinaona",
+      "date": "2026-08-06",
+      "day": "Jueves",
+      "start": "16:15",
+      "end": "16:45",
+      "room": "We/On Urquinaona",
+      "name": "Studio 1"
+    },
+    {
+      "id": "2026-08-06-17-00-17-45-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-06",
+      "day": "Jueves",
+      "start": "17:00",
+      "end": "17:45",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-06-17-30-18-15-studio-1-we-on-urquinaona",
+      "date": "2026-08-06",
+      "day": "Jueves",
+      "start": "17:30",
+      "end": "18:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 1"
+    },
+    {
+      "id": "2026-08-06-18-15-19-00-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-06",
+      "day": "Jueves",
+      "start": "18:15",
+      "end": "19:00",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-06-18-15-19-00-studio-2-we-on-urquinaona",
+      "date": "2026-08-06",
+      "day": "Jueves",
+      "start": "18:15",
+      "end": "19:00",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-06-18-30-19-30-zona-cross-we-on-urquinaona",
+      "date": "2026-08-06",
+      "day": "Jueves",
+      "start": "18:30",
+      "end": "19:30",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-06-18-30-19-15-zona-funcional-we-on-urquinaona",
+      "date": "2026-08-06",
+      "day": "Jueves",
+      "start": "18:30",
+      "end": "19:15",
+      "room": "We/On Urquinaona",
+      "name": "Zona Funcional"
+    },
+    {
+      "id": "2026-08-06-18-45-19-00-zona-cross-we-on-urquinaona",
+      "date": "2026-08-06",
+      "day": "Jueves",
+      "start": "18:45",
+      "end": "19:00",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-06-19-00-19-15-zona-cross-we-on-urquinaona",
+      "date": "2026-08-06",
+      "day": "Jueves",
+      "start": "19:00",
+      "end": "19:15",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-06-19-15-20-00-studio-2-we-on-urquinaona",
+      "date": "2026-08-06",
+      "day": "Jueves",
+      "start": "19:15",
+      "end": "20:00",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-06-19-15-19-30-zona-cross-we-on-urquinaona",
+      "date": "2026-08-06",
+      "day": "Jueves",
+      "start": "19:15",
+      "end": "19:30",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-06-19-30-20-15-studio-1-we-on-urquinaona",
+      "date": "2026-08-06",
+      "day": "Jueves",
+      "start": "19:30",
+      "end": "20:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 1"
+    },
+    {
+      "id": "2026-08-06-19-30-20-30-zona-cross-we-on-urquinaona",
+      "date": "2026-08-06",
+      "day": "Jueves",
+      "start": "19:30",
+      "end": "20:30",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-06-20-15-21-15-studio-2-we-on-urquinaona",
+      "date": "2026-08-06",
+      "day": "Jueves",
+      "start": "20:15",
+      "end": "21:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-06-20-15-20-30-zona-funcional-we-on-urquinaona",
+      "date": "2026-08-06",
+      "day": "Jueves",
+      "start": "20:15",
+      "end": "20:30",
+      "room": "We/On Urquinaona",
+      "name": "Zona Funcional"
+    },
+    {
+      "id": "2026-08-06-20-30-21-15-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-06",
+      "day": "Jueves",
+      "start": "20:30",
+      "end": "21:15",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-07-07-15-08-00-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-07",
+      "day": "Viernes",
+      "start": "07:15",
+      "end": "08:00",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-07-07-15-08-00-zona-cross-we-on-urquinaona",
+      "date": "2026-08-07",
+      "day": "Viernes",
+      "start": "07:15",
+      "end": "08:00",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-07-09-00-09-45-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-07",
+      "day": "Viernes",
+      "start": "09:00",
+      "end": "09:45",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-07-09-30-10-15-studio-1-we-on-urquinaona",
+      "date": "2026-08-07",
+      "day": "Viernes",
+      "start": "09:30",
+      "end": "10:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 1"
+    },
+    {
+      "id": "2026-08-07-09-30-10-15-studio-2-we-on-urquinaona",
+      "date": "2026-08-07",
+      "day": "Viernes",
+      "start": "09:30",
+      "end": "10:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-07-10-30-11-15-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-07",
+      "day": "Viernes",
+      "start": "10:30",
+      "end": "11:15",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-07-10-30-11-15-studio-1-we-on-urquinaona",
+      "date": "2026-08-07",
+      "day": "Viernes",
+      "start": "10:30",
+      "end": "11:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 1"
+    },
+    {
+      "id": "2026-08-07-10-30-11-15-studio-2-we-on-urquinaona",
+      "date": "2026-08-07",
+      "day": "Viernes",
+      "start": "10:30",
+      "end": "11:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-07-11-15-12-00-piscina-we-on-urquinaona",
+      "date": "2026-08-07",
+      "day": "Viernes",
+      "start": "11:15",
+      "end": "12:00",
+      "room": "We/On Urquinaona",
+      "name": "Piscina"
+    },
+    {
+      "id": "2026-08-07-11-30-12-15-studio-2-we-on-urquinaona",
+      "date": "2026-08-07",
+      "day": "Viernes",
+      "start": "11:30",
+      "end": "12:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-07-13-00-13-45-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-07",
+      "day": "Viernes",
+      "start": "13:00",
+      "end": "13:45",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-07-13-00-13-15-zona-cross-we-on-urquinaona",
+      "date": "2026-08-07",
+      "day": "Viernes",
+      "start": "13:00",
+      "end": "13:15",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-07-13-15-13-30-zona-cross-we-on-urquinaona",
+      "date": "2026-08-07",
+      "day": "Viernes",
+      "start": "13:15",
+      "end": "13:30",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-07-14-15-15-00-studio-2-we-on-urquinaona",
+      "date": "2026-08-07",
+      "day": "Viernes",
+      "start": "14:15",
+      "end": "15:00",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-07-17-00-17-45-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-07",
+      "day": "Viernes",
+      "start": "17:00",
+      "end": "17:45",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-07-17-00-17-45-studio-2-we-on-urquinaona",
+      "date": "2026-08-07",
+      "day": "Viernes",
+      "start": "17:00",
+      "end": "17:45",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-07-17-00-17-15-zona-cross-we-on-urquinaona",
+      "date": "2026-08-07",
+      "day": "Viernes",
+      "start": "17:00",
+      "end": "17:15",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-07-17-15-17-30-zona-cross-we-on-urquinaona",
+      "date": "2026-08-07",
+      "day": "Viernes",
+      "start": "17:15",
+      "end": "17:30",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-07-18-00-18-45-studio-2-we-on-urquinaona",
+      "date": "2026-08-07",
+      "day": "Viernes",
+      "start": "18:00",
+      "end": "18:45",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-07-18-15-19-00-studio-1-we-on-urquinaona",
+      "date": "2026-08-07",
+      "day": "Viernes",
+      "start": "18:15",
+      "end": "19:00",
+      "room": "We/On Urquinaona",
+      "name": "Studio 1"
+    },
+    {
+      "id": "2026-08-07-18-30-18-45-zona-cross-we-on-urquinaona",
+      "date": "2026-08-07",
+      "day": "Viernes",
+      "start": "18:30",
+      "end": "18:45",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-07-18-45-19-00-zona-cross-we-on-urquinaona",
+      "date": "2026-08-07",
+      "day": "Viernes",
+      "start": "18:45",
+      "end": "19:00",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-07-19-00-19-45-studio-2-we-on-urquinaona",
+      "date": "2026-08-07",
+      "day": "Viernes",
+      "start": "19:00",
+      "end": "19:45",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-07-19-00-19-15-zona-cross-we-on-urquinaona",
+      "date": "2026-08-07",
+      "day": "Viernes",
+      "start": "19:00",
+      "end": "19:15",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-07-19-15-20-00-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-07",
+      "day": "Viernes",
+      "start": "19:15",
+      "end": "20:00",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-07-19-15-20-15-zona-cross-we-on-urquinaona",
+      "date": "2026-08-07",
+      "day": "Viernes",
+      "start": "19:15",
+      "end": "20:15",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-07-20-30-21-15-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-07",
+      "day": "Viernes",
+      "start": "20:30",
+      "end": "21:15",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-08-07-15-08-00-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "07:15",
+      "end": "08:00",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-08-07-15-08-15-zona-cross-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "07:15",
+      "end": "08:15",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-08-08-00-08-45-studio-2-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "08:00",
+      "end": "08:45",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-08-08-15-09-00-piscina-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "08:15",
+      "end": "09:00",
+      "room": "We/On Urquinaona",
+      "name": "Piscina"
+    },
+    {
+      "id": "2026-08-08-08-30-08-45-zona-cross-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "08:30",
+      "end": "08:45",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-08-09-00-09-45-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "09:00",
+      "end": "09:45",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-08-09-30-10-15-studio-1-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "09:30",
+      "end": "10:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 1"
+    },
+    {
+      "id": "2026-08-08-09-30-09-45-zona-cross-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "09:30",
+      "end": "09:45",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-08-09-45-10-00-zona-cross-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "09:45",
+      "end": "10:00",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-08-10-00-10-45-studio-2-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "10:00",
+      "end": "10:45",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-08-10-30-11-15-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "10:30",
+      "end": "11:15",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-08-10-30-11-15-studio-2-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "10:30",
+      "end": "11:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-08-10-30-10-45-zona-cross-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "10:30",
+      "end": "10:45",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-08-10-45-11-00-zona-cross-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "10:45",
+      "end": "11:00",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-08-11-00-11-45-studio-2-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "11:00",
+      "end": "11:45",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-08-11-15-12-00-piscina-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "11:15",
+      "end": "12:00",
+      "room": "We/On Urquinaona",
+      "name": "Piscina"
+    },
+    {
+      "id": "2026-08-08-11-30-12-15-studio-1-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "11:30",
+      "end": "12:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 1"
+    },
+    {
+      "id": "2026-08-08-11-30-12-15-studio-2-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "11:30",
+      "end": "12:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-08-11-30-12-30-zona-cross-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "11:30",
+      "end": "12:30",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-08-12-00-13-00-studio-2-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "12:00",
+      "end": "13:00",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-08-13-00-13-45-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "13:00",
+      "end": "13:45",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-08-14-15-15-00-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "14:15",
+      "end": "15:00",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-08-14-15-15-00-studio-2-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "14:15",
+      "end": "15:00",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-08-14-15-15-25-zona-cross-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "14:15",
+      "end": "15:25",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-08-14-30-15-15-studio-1-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "14:30",
+      "end": "15:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 1"
+    },
+    {
+      "id": "2026-08-08-15-30-15-45-zona-cross-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "15:30",
+      "end": "15:45",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-08-16-00-16-15-zona-funcional-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "16:00",
+      "end": "16:15",
+      "room": "We/On Urquinaona",
+      "name": "Zona Funcional"
+    },
+    {
+      "id": "2026-08-08-17-00-17-45-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "17:00",
+      "end": "17:45",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-08-17-00-17-30-zona-cross-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "17:00",
+      "end": "17:30",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-08-17-00-17-15-zona-cross-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "17:00",
+      "end": "17:15",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-08-17-15-18-00-studio-2-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "17:15",
+      "end": "18:00",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-08-17-15-17-30-zona-cross-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "17:15",
+      "end": "17:30",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-08-17-30-18-15-studio-1-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "17:30",
+      "end": "18:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 1"
+    },
+    {
+      "id": "2026-08-08-17-30-18-15-zona-funcional-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "17:30",
+      "end": "18:15",
+      "room": "We/On Urquinaona",
+      "name": "Zona Funcional"
+    },
+    {
+      "id": "2026-08-08-18-15-19-00-studio-2-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "18:15",
+      "end": "19:00",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-08-18-30-19-15-piscina-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "18:30",
+      "end": "19:15",
+      "room": "We/On Urquinaona",
+      "name": "Piscina"
+    },
+    {
+      "id": "2026-08-08-18-30-19-15-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "18:30",
+      "end": "19:15",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-08-18-30-19-15-studio-1-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "18:30",
+      "end": "19:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 1"
+    },
+    {
+      "id": "2026-08-08-18-30-18-45-zona-cross-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "18:30",
+      "end": "18:45",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-08-18-45-19-00-zona-cross-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "18:45",
+      "end": "19:00",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-08-19-00-19-15-zona-cross-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "19:00",
+      "end": "19:15",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-08-19-15-20-00-studio-2-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "19:15",
+      "end": "20:00",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-08-19-15-19-30-zona-cross-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "19:15",
+      "end": "19:30",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-08-19-30-20-15-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "19:30",
+      "end": "20:15",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-08-19-30-20-30-studio-1-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "19:30",
+      "end": "20:30",
+      "room": "We/On Urquinaona",
+      "name": "Studio 1"
+    },
+    {
+      "id": "2026-08-08-19-30-20-30-zona-cross-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "19:30",
+      "end": "20:30",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-08-20-15-21-15-studio-2-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "20:15",
+      "end": "21:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-08-20-30-21-15-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-08",
+      "day": "Sábado",
+      "start": "20:30",
+      "end": "21:15",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-09-10-00-10-45-studio-2-we-on-urquinaona",
+      "date": "2026-08-09",
+      "day": "Domingo",
+      "start": "10:00",
+      "end": "10:45",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-09-10-30-11-15-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-09",
+      "day": "Domingo",
+      "start": "10:30",
+      "end": "11:15",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-09-10-30-10-45-zona-cross-we-on-urquinaona",
+      "date": "2026-08-09",
+      "day": "Domingo",
+      "start": "10:30",
+      "end": "10:45",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-09-10-45-11-00-zona-cross-we-on-urquinaona",
+      "date": "2026-08-09",
+      "day": "Domingo",
+      "start": "10:45",
+      "end": "11:00",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-09-11-00-12-00-studio-2-we-on-urquinaona",
+      "date": "2026-08-09",
+      "day": "Domingo",
+      "start": "11:00",
+      "end": "12:00",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-09-11-15-11-30-zona-cross-we-on-urquinaona",
+      "date": "2026-08-09",
+      "day": "Domingo",
+      "start": "11:15",
+      "end": "11:30",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-09-11-30-12-15-studio-1-we-on-urquinaona",
+      "date": "2026-08-09",
+      "day": "Domingo",
+      "start": "11:30",
+      "end": "12:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 1"
+    },
+    {
+      "id": "2026-08-09-11-30-11-45-zona-cross-we-on-urquinaona",
+      "date": "2026-08-09",
+      "day": "Domingo",
+      "start": "11:30",
+      "end": "11:45",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-09-12-15-12-30-zona-cross-we-on-urquinaona",
+      "date": "2026-08-09",
+      "day": "Domingo",
+      "start": "12:15",
+      "end": "12:30",
+      "room": "We/On Urquinaona",
+      "name": "Zona Cross"
+    },
+    {
+      "id": "2026-08-09-13-00-13-45-sala-cycle-we-on-urquinaona",
+      "date": "2026-08-09",
+      "day": "Domingo",
+      "start": "13:00",
+      "end": "13:45",
+      "room": "We/On Urquinaona",
+      "name": "Sala Cycle"
+    },
+    {
+      "id": "2026-08-09-17-00-17-15-zona-funcional-we-on-urquinaona",
+      "date": "2026-08-09",
+      "day": "Domingo",
+      "start": "17:00",
+      "end": "17:15",
+      "room": "We/On Urquinaona",
+      "name": "Zona Funcional"
+    },
+    {
+      "id": "2026-08-09-17-30-18-15-studio-2-we-on-urquinaona",
+      "date": "2026-08-09",
+      "day": "Domingo",
+      "start": "17:30",
+      "end": "18:15",
+      "room": "We/On Urquinaona",
+      "name": "Studio 2"
+    },
+    {
+      "id": "2026-08-09-18-00-18-30-zona-funcional-we-on-urquinaona",
+      "date": "2026-08-09",
+      "day": "Domingo",
+      "start": "18:00",
+      "end": "18:30",
+      "room": "We/On Urquinaona",
+      "name": "Zona Funcional"
+    },
+    {
+      "id": "2026-08-09-18-30-18-45-zona-funcional-we-on-urquinaona",
+      "date": "2026-08-09",
+      "day": "Domingo",
+      "start": "18:30",
+      "end": "18:45",
+      "room": "We/On Urquinaona",
+      "name": "Zona Funcional"
+    },
+    {
+      "id": "2026-08-09-19-15-19-30-zona-funcional-we-on-urquinaona",
+      "date": "2026-08-09",
+      "day": "Domingo",
+      "start": "19:15",
+      "end": "19:30",
+      "room": "We/On Urquinaona",
+      "name": "Zona Funcional"
+    }
+  ]
 }
