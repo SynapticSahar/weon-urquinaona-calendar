@@ -23,8 +23,12 @@ h1 { font-size: clamp(28px, 4vw, 52px); line-height: 1.02; margin: 0; max-width:
 label span { display: block; font-size: 12px; font-weight: 700; margin: 0 0 6px; }
 input, select { width: 100%; min-height: 44px; border: 1px solid var(--line); border-radius: 10px; background: white; padding: 0 12px; }
 .summary { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin: 14px 0; }
+.summary-info { display: flex; flex-direction: column; gap: 4px; }
+.sync-status { color: var(--muted); font-size: 12px; line-height: 1.3; }
+.sync-status.error { color: #a23b3b; }
 .actions { display: flex; gap: 8px; }
 button { min-height: 42px; border-radius: 10px; padding: 0 14px; border: 1px solid var(--accent); cursor: pointer; }
+button:disabled { cursor: not-allowed; opacity: .55; }
 .primary { background: var(--accent); color: white; }
 .secondary { background: white; color: var(--text); }
 .schedule { display: grid; grid-template-columns: repeat(7, minmax(210px, 1fr)); gap: 12px; overflow-x: auto; padding-bottom: 10px; }
@@ -39,6 +43,7 @@ button { min-height: 42px; border-radius: 10px; padding: 0 14px; border: 1px sol
 .class-card.selected { background: var(--selected); border-color: #9eb88b; }
 .class-row { display: flex; gap: 6px; align-items: flex-start; font-size: 13px; line-height: 1.3; }
 .class-row input { flex: 0 0 auto; width: 18px; min-height: 18px; margin: 0; }
+.class-row span { display: inline; margin: 0; font-size: inherit; font-weight: inherit; }
 .class-time { flex: 0 0 auto; font-variant-numeric: tabular-nums; }
 .class-separator { flex: 0 0 auto; color: var(--muted); }
 .class-name { min-width: 0; font-size: 13px; font-weight: 750; line-height: 1.3; overflow-wrap: anywhere; }
