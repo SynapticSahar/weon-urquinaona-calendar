@@ -21,6 +21,7 @@ const syncGoogleEl = document.querySelector("#syncGoogle");
 const syncStatusEl = document.querySelector("#syncStatus");
 
 let googleAccessToken = "";
+let googleAccessTokenExpiresAt = 0;
 
 function localDate(date) {
   return new Date(`${date}T12:00:00`);
@@ -184,6 +185,37 @@ function waitForGoogleIdentity() {
   });
 }
 
+function hasUsableGoogleToken() {
+  return googleAccessToken && Date.now() < googleAccessTokenExpiresAt - 60_000;
+}
+
+function googleTokenError(response, fallback) {
+  const error = new Error(response?.error_description || response?.message || response?.type || response?.error || fallback);
+  error.code = response?.error || response?.type || "";
+  return error;
+}
+
+function requestGoogleAccessToken(clientId, prompt) {
+  return new Promise((resolve, reject) => {
+    const client = google.accounts.oauth2.initTokenClient({
+      client_id: clientId,
+      scope: GOOGLE_CALENDAR_SCOPE,
+      callback: response => {
+        if (response.error) {
+          reject(googleTokenError(response, response.error));
+          return;
+        }
+        googleAccessToken = response.access_token;
+        googleAccessTokenExpiresAt = Date.now() + Number(response.expires_in || 3600) * 1000;
+        resolve(googleAccessToken);
+      },
+      error_callback: error => reject(googleTokenError(error, "Google sign-in was cancelled.")),
+    });
+
+    client.requestAccessToken({ prompt });
+  });
+}
+
 async function authorizeGoogleCalendar() {
   const { clientId } = googleConfig();
   if (!clientId) {
@@ -192,23 +224,14 @@ async function authorizeGoogleCalendar() {
 
   await waitForGoogleIdentity();
 
-  return new Promise((resolve, reject) => {
-    const client = google.accounts.oauth2.initTokenClient({
-      client_id: clientId,
-      scope: GOOGLE_CALENDAR_SCOPE,
-      callback: response => {
-        if (response.error) {
-          reject(new Error(response.error_description || response.error));
-          return;
-        }
-        googleAccessToken = response.access_token;
-        resolve(googleAccessToken);
-      },
-      error_callback: error => reject(new Error(error.message || "Google sign-in was cancelled.")),
-    });
+  if (hasUsableGoogleToken()) return googleAccessToken;
 
-    client.requestAccessToken({ prompt: googleAccessToken ? "" : "consent" });
-  });
+  try {
+    return await requestGoogleAccessToken(clientId, "");
+  } catch (silentError) {
+    setSyncStatus("Google needs permission again...");
+    return requestGoogleAccessToken(clientId, "consent");
+  }
 }
 
 async function googleCalendarRequest(path, options = {}) {
