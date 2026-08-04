@@ -25,3 +25,4 @@ Selections are stored only in that browser. The public timetable refreshes autom
 ## Important limitation
 
 GitHub Pages cannot write your private selections back to the server. The page therefore exports an `.ics` file rather than maintaining a private live subscription. A true editable subscription would require a small authenticated backend.
+# workflow trigger
