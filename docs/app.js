@@ -76,14 +76,15 @@ function render() {
       const label = document.createElement("label");
       label.className = `class-card${selected.has(item.id) ? " selected" : ""}`;
       label.innerHTML = `
-        <div class="class-top">
+        <div class="class-row">
           <input type="checkbox" ${selected.has(item.id) ? "checked" : ""}>
-          <div>
-            <div class="class-name"></div>
-            <div class="class-time">${item.start}–${item.end}</div>
-            <div class="class-room"></div>
-          </div>
+          <span class="class-time"></span>
+          <span class="class-separator">|</span>
+          <strong class="class-name"></strong>
+          <span class="class-separator">|</span>
+          <span class="class-room"></span>
         </div>`;
+      label.querySelector(".class-time").textContent = item.start;
       label.querySelector(".class-name").textContent = item.name;
       label.querySelector(".class-room").textContent = item.room;
       label.querySelector("input").addEventListener("change", event => {
@@ -126,7 +127,7 @@ function downloadSelected() {
       `DTSTART;TZID=Europe/Madrid:${dateTime(item.date, item.start)}`,
       `DTEND;TZID=Europe/Madrid:${dateTime(item.date, item.end)}`,
       `SUMMARY:${escapeIcs(item.name)}`,
-      `LOCATION:${escapeIcs(`${item.room}, We/On Urquinaona`)}`,
+      `LOCATION:${escapeIcs(item.room)}`,
       `DESCRIPTION:${escapeIcs("Selected with We/On Weekly Planner")}`,
       "END:VEVENT"
     );

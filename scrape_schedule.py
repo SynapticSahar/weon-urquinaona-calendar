@@ -15,6 +15,7 @@ OUTPUT = Path("docs/schedule.json")
 TIMEZONE = "Europe/Madrid"
 DAY_RE = re.compile(r"^(Lunes|Martes|Miércoles|Miercoles|Jueves|Viernes|Sábado|Sabado|Domingo)\s+(\d{1,2})/(\d{1,2})$")
 CLASS_RE = re.compile(r"^(\d{2}:\d{2})\s*-\s*(\d{2}:\d{2})\s*\|\s*(.+)$", re.S)
+INVALID_CLASS_NAMES = {"Sala Cycle", "Zona Cross", "Zona Funcional"}
 
 
 @dataclass(frozen=True)
@@ -42,6 +43,13 @@ def clean_text(value: str) -> str:
     return re.sub(r"\s+", " ", value).strip()
 
 
+def is_invalid_class_name(name: str, room: str) -> bool:
+    normalized_name = clean_text(name).casefold()
+    normalized_room = clean_text(room).casefold()
+    invalid_names = {value.casefold() for value in INVALID_CLASS_NAMES}
+    return not normalized_name or normalized_name == normalized_room or normalized_name in invalid_names
+
+
 async def extract_schedule() -> list[ClassItem]:
     async with async_playwright() as playwright:
         browser = await playwright.chromium.launch()
@@ -58,16 +66,119 @@ async def extract_schedule() -> list[ClassItem]:
                 return r.width > 0 && r.height > 0 && s.visibility !== 'hidden' && s.display !== 'none';
               };
               const nodes = [...document.querySelectorAll('body *')].filter(visible);
-              const text = el => (el.innerText || '').replace(/\s+/g, ' ').trim();
+              const normalize = value => (value || '').replace(/\\u00a0/g, ' ').replace(/\\s+/g, ' ').trim();
+              const text = el => normalize(el.innerText);
+              const lines = el => (el.innerText || '')
+                .split(/\\n+/)
+                .map(normalize)
+                .filter(Boolean);
+              const timeRe = /^\\d{2}:\\d{2}\\s*-\\s*\\d{2}:\\d{2}\\s*\\|/;
+              const dayRe = /^(Lunes|Martes|Miércoles|Miercoles|Jueves|Viernes|Sábado|Sabado|Domingo)\\s+\\d{1,2}\\/\\d{1,2}$/;
+              const sameText = (a, b) => normalize(a).toLocaleLowerCase() === normalize(b).toLocaleLowerCase();
+              const validNameLine = (line, timeRoom) => {
+                const value = normalize(line);
+                return value
+                  && !sameText(value, timeRoom)
+                  && !timeRe.test(value)
+                  && !dayRe.test(value);
+              };
+              const uniqueLines = values => {
+                const seen = new Set();
+                const result = [];
+                for (const value of values) {
+                  const key = normalize(value).toLocaleLowerCase();
+                  if (!key || seen.has(key)) continue;
+                  seen.add(key);
+                  result.push(normalize(value));
+                }
+                return result;
+              };
+              const tightContainer = (el, timeRoom) => {
+                if (!el || el === document.body || !visible(el)) return false;
+                const r = el.getBoundingClientRect();
+                if (r.height > Math.max(300, window.innerHeight * 0.45)) return false;
+                const elLines = uniqueLines(lines(el));
+                const timeLines = elLines.filter(line => timeRe.test(line));
+                return timeLines.length === 1
+                  && sameText(timeLines[0], timeRoom)
+                  && !elLines.some(line => dayRe.test(line));
+              };
+              const nameFromLines = (el, timeRoom) => {
+                const elLines = uniqueLines(lines(el));
+                const timeIndex = elLines.findIndex(line => timeRe.test(line) && sameText(line, timeRoom));
+                if (timeIndex < 0) return '';
+                const ordered = elLines.slice(timeIndex + 1).concat(elLines.slice(0, timeIndex));
+                return ordered.find(line => validNameLine(line, timeRoom)) || '';
+              };
+              const nameFromSmallestText = (root, timeRoom) => {
+                if (!root || !visible(root)) return '';
+                const scoped = [root, ...root.querySelectorAll('*')].filter(visible);
+                const smallest = scoped.filter(el => {
+                  const possible = lines(el).some(line => validNameLine(line, timeRoom));
+                  if (!possible) return false;
+                  return ![...el.children]
+                    .filter(visible)
+                    .some(child => lines(child).some(line => validNameLine(line, timeRoom)));
+                });
+                for (const el of smallest) {
+                  const name = lines(el).find(line => validNameLine(line, timeRoom));
+                  if (name) return name;
+                }
+                return nameFromLines(root, timeRoom);
+              };
+              const nearbySiblingName = (cursor, timeRoom) => {
+                const parent = cursor.parentElement;
+                if (!parent || !tightContainer(parent, timeRoom)) return '';
+                const siblings = [...parent.children].filter(visible);
+                const index = siblings.indexOf(cursor);
+                if (index < 0) return '';
+                const offsets = [1, -1, 2, -2];
+                for (const offset of offsets) {
+                  const sibling = siblings[index + offset];
+                  if (!sibling) continue;
+                  const name = nameFromSmallestText(sibling, timeRoom);
+                  if (name) return name;
+                }
+                return '';
+              };
+              const classFromTimeElement = timeEl => {
+                const timeRoom = lines(timeEl).find(line => timeRe.test(line));
+                if (!timeRoom) return null;
+
+                let cursor = timeEl;
+                for (let depth = 0; cursor && cursor !== document.body && depth < 8; depth += 1) {
+                  const parent = cursor.parentElement;
+                  if (!parent) break;
+
+                  if (tightContainer(parent, timeRoom)) {
+                    const siblingName = nearbySiblingName(cursor, timeRoom);
+                    const name = siblingName || nameFromLines(parent, timeRoom);
+                    if (name) {
+                      const r = parent.getBoundingClientRect();
+                      return {
+                        time_room: normalize(timeRoom),
+                        name: normalize(name),
+                        x: r.x + r.width / 2,
+                        y: r.y + scrollY,
+                      };
+                    }
+                  }
+
+                  cursor = parent;
+                }
+
+                return null;
+              };
               const days = nodes
-                .filter(el => /^(Lunes|Martes|Miércoles|Miercoles|Jueves|Viernes|Sábado|Sabado|Domingo)\s+\d{1,2}\/\d{1,2}$/.test(text(el)))
-                .filter(el => ![...el.children].some(child => /^(Lunes|Martes|Miércoles|Miercoles|Jueves|Viernes|Sábado|Sabado|Domingo)\s+\d{1,2}\/\d{1,2}$/.test(text(child))))
+                .filter(el => dayRe.test(text(el)))
+                .filter(el => ![...el.children].some(child => dayRe.test(text(child))))
                 .map(el => { const r = el.getBoundingClientRect(); return {text: text(el), x: r.x + r.width/2, y: r.y + scrollY}; });
 
               const classes = nodes
-                .filter(el => /^\d{2}:\d{2}\s*-\s*\d{2}:\d{2}\s*\|/.test(text(el)))
-                .filter(el => ![...el.children].some(child => /^\d{2}:\d{2}\s*-\s*\d{2}:\d{2}\s*\|/.test(text(child))))
-                .map(el => { const r = el.getBoundingClientRect(); return {text: text(el), x: r.x + r.width/2, y: r.y + scrollY}; });
+                .filter(el => lines(el).some(line => timeRe.test(line)))
+                .filter(el => ![...el.children].some(child => lines(child).some(line => timeRe.test(line))))
+                .map(classFromTimeElement)
+                .filter(Boolean);
               return {days, classes};
             }
             """
@@ -87,11 +198,15 @@ async def extract_schedule() -> list[ClassItem]:
     results: dict[str, ClassItem] = {}
 
     for raw_class in raw["classes"]:
-        text = clean_text(raw_class["text"])
-        match = CLASS_RE.match(text)
+        time_room = clean_text(raw_class["time_room"])
+        match = CLASS_RE.match(time_room)
         if not match:
             continue
-        start, end, remainder = match.groups()
+        start, end, room = match.groups()
+        room = clean_text(room)
+        name = clean_text(raw_class["name"])
+        if is_invalid_class_name(name, room):
+            continue
 
         eligible = [header for header in day_headers if header["y"] <= raw_class["y"] + 80]
         if not eligible:
@@ -106,23 +221,6 @@ async def extract_schedule() -> list[ClassItem]:
         year = resolve_year(day, month, now)
         date_value = f"{year:04d}-{month:02d}-{day:02d}"
 
-        # The room is separated from the class name visually. Common room prefixes
-        # are handled first, then a conservative final-word split is used.
-        room_names = [
-            "Zona Cross", "Zona Funcional", "Sala Cycle", "Studio 1", "Studio 2",
-            "Piscina", "Exterior", "Terraza"
-        ]
-        room = "We/On Urquinaona"
-        name = remainder
-        for candidate in room_names:
-            if remainder.casefold().startswith(candidate.casefold() + " "):
-                room = candidate
-                name = remainder[len(candidate):].strip()
-                break
-
-        name = clean_text(name)
-        if not name:
-            continue
         item_id = f"{date_value}-{start}-{end}-{name}-{room}".casefold()
         item_id = re.sub(r"[^a-z0-9]+", "-", item_id).strip("-")
         results[item_id] = ClassItem(
@@ -141,12 +239,19 @@ async def extract_schedule() -> list[ClassItem]:
     return classes
 
 
+def print_sample_records(classes: list[ClassItem]) -> None:
+    print("Sample extracted records:")
+    for item in classes[:10]:
+        print(f"  {item.date} {item.start} | {item.name} | {item.room}")
+
+
 async def main() -> None:
     classes = await extract_schedule()
+    print_sample_records(classes)
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     payload = {
         "source": URL,
-        "club": "We/On Urquinaona",
+        "club": "We/On",
         "timezone": TIMEZONE,
         "updated_at": datetime.now(ZoneInfo(TIMEZONE)).isoformat(),
         "classes": [asdict(item) for item in classes],
