@@ -2,7 +2,7 @@
   "source": "https://www.weonclub.com/horarios-clases?club=17",
   "club": "We/On",
   "timezone": "Europe/Madrid",
-  "updated_at": "2026-08-05T19:24:59.157391+02:00",
+  "updated_at": "2026-08-06T08:25:53.161599+02:00",
   "classes": [
     {
       "id": "2026-08-03-07-15-08-00-cross-zona-cross",
@@ -7532,6 +7532,240 @@
       "id": "2026-09-03-20-30-21-15-virtual-cycle-sala-cycle",
       "date": "2026-09-03",
       "day": "Jueves",
+      "start": "20:30",
+      "end": "21:15",
+      "room": "Sala Cycle",
+      "name": "VIRTUAL CYCLE"
+    },
+    {
+      "id": "2026-09-04-07-15-08-00-cross-zona-cross",
+      "date": "2026-09-04",
+      "day": "Viernes",
+      "start": "07:15",
+      "end": "08:00",
+      "room": "Zona Cross",
+      "name": "CROSS"
+    },
+    {
+      "id": "2026-09-04-07-15-08-00-virtual-cycle-sala-cycle",
+      "date": "2026-09-04",
+      "day": "Viernes",
+      "start": "07:15",
+      "end": "08:00",
+      "room": "Sala Cycle",
+      "name": "VIRTUAL CYCLE"
+    },
+    {
+      "id": "2026-09-04-09-00-09-45-virtual-cycle-sala-cycle",
+      "date": "2026-09-04",
+      "day": "Viernes",
+      "start": "09:00",
+      "end": "09:45",
+      "room": "Sala Cycle",
+      "name": "VIRTUAL CYCLE"
+    },
+    {
+      "id": "2026-09-04-09-30-10-15-body-pump-studio-1",
+      "date": "2026-09-04",
+      "day": "Viernes",
+      "start": "09:30",
+      "end": "10:15",
+      "room": "Studio 1",
+      "name": "BODY PUMP"
+    },
+    {
+      "id": "2026-09-04-09-30-10-15-yoga-strech-studio-2",
+      "date": "2026-09-04",
+      "day": "Viernes",
+      "start": "09:30",
+      "end": "10:15",
+      "room": "Studio 2",
+      "name": "YOGA STRECH"
+    },
+    {
+      "id": "2026-09-04-10-30-11-15-aeroyoga-iniciacion-studio-1",
+      "date": "2026-09-04",
+      "day": "Viernes",
+      "start": "10:30",
+      "end": "11:15",
+      "room": "Studio 1",
+      "name": "AEROYOGA (INICIACION)"
+    },
+    {
+      "id": "2026-09-04-10-30-11-15-cycle-sala-cycle",
+      "date": "2026-09-04",
+      "day": "Viernes",
+      "start": "10:30",
+      "end": "11:15",
+      "room": "Sala Cycle",
+      "name": "CYCLE"
+    },
+    {
+      "id": "2026-09-04-11-15-12-00-aquafit-piscina",
+      "date": "2026-09-04",
+      "day": "Viernes",
+      "start": "11:15",
+      "end": "12:00",
+      "room": "Piscina",
+      "name": "AQUAFIT"
+    },
+    {
+      "id": "2026-09-04-11-30-12-15-power-pilates-studio-2",
+      "date": "2026-09-04",
+      "day": "Viernes",
+      "start": "11:30",
+      "end": "12:15",
+      "room": "Studio 2",
+      "name": "POWER PILATES"
+    },
+    {
+      "id": "2026-09-04-13-00-13-45-virtual-cycle-sala-cycle",
+      "date": "2026-09-04",
+      "day": "Viernes",
+      "start": "13:00",
+      "end": "13:45",
+      "room": "Sala Cycle",
+      "name": "VIRTUAL CYCLE"
+    },
+    {
+      "id": "2026-09-04-13-00-13-15-xpress-gl-teo-zona-cross",
+      "date": "2026-09-04",
+      "day": "Viernes",
+      "start": "13:00",
+      "end": "13:15",
+      "room": "Zona Cross",
+      "name": "XPRESS GLÚTEO"
+    },
+    {
+      "id": "2026-09-04-13-15-13-30-xpress-mobility-zona-cross",
+      "date": "2026-09-04",
+      "day": "Viernes",
+      "start": "13:15",
+      "end": "13:30",
+      "room": "Zona Cross",
+      "name": "XPRESS MOBILITY"
+    },
+    {
+      "id": "2026-09-04-14-15-15-00-pilates-stretching-studio-2",
+      "date": "2026-09-04",
+      "day": "Viernes",
+      "start": "14:15",
+      "end": "15:00",
+      "room": "Studio 2",
+      "name": "PILATES STRETCHING"
+    },
+    {
+      "id": "2026-09-04-17-00-17-45-pilates-fit-studio-2",
+      "date": "2026-09-04",
+      "day": "Viernes",
+      "start": "17:00",
+      "end": "17:45",
+      "room": "Studio 2",
+      "name": "PILATES FIT"
+    },
+    {
+      "id": "2026-09-04-17-00-17-45-virtual-cycle-sala-cycle",
+      "date": "2026-09-04",
+      "day": "Viernes",
+      "start": "17:00",
+      "end": "17:45",
+      "room": "Sala Cycle",
+      "name": "VIRTUAL CYCLE"
+    },
+    {
+      "id": "2026-09-04-17-00-17-15-xpress-gl-teo-zona-cross",
+      "date": "2026-09-04",
+      "day": "Viernes",
+      "start": "17:00",
+      "end": "17:15",
+      "room": "Zona Cross",
+      "name": "XPRESS GLÚTEO"
+    },
+    {
+      "id": "2026-09-04-17-15-17-30-xpress-mobility-zona-cross",
+      "date": "2026-09-04",
+      "day": "Viernes",
+      "start": "17:15",
+      "end": "17:30",
+      "room": "Zona Cross",
+      "name": "XPRESS MOBILITY"
+    },
+    {
+      "id": "2026-09-04-18-00-18-45-pilates-studio-2",
+      "date": "2026-09-04",
+      "day": "Viernes",
+      "start": "18:00",
+      "end": "18:45",
+      "room": "Studio 2",
+      "name": "PILATES"
+    },
+    {
+      "id": "2026-09-04-18-15-19-00-body-pump-studio-1",
+      "date": "2026-09-04",
+      "day": "Viernes",
+      "start": "18:15",
+      "end": "19:00",
+      "room": "Studio 1",
+      "name": "BODY PUMP"
+    },
+    {
+      "id": "2026-09-04-18-30-18-45-xpress-gl-teo-zona-cross",
+      "date": "2026-09-04",
+      "day": "Viernes",
+      "start": "18:30",
+      "end": "18:45",
+      "room": "Zona Cross",
+      "name": "XPRESS GLÚTEO"
+    },
+    {
+      "id": "2026-09-04-18-45-19-00-xpress-mobility-zona-cross",
+      "date": "2026-09-04",
+      "day": "Viernes",
+      "start": "18:45",
+      "end": "19:00",
+      "room": "Zona Cross",
+      "name": "XPRESS MOBILITY"
+    },
+    {
+      "id": "2026-09-04-19-00-19-45-power-yoga-studio-2",
+      "date": "2026-09-04",
+      "day": "Viernes",
+      "start": "19:00",
+      "end": "19:45",
+      "room": "Studio 2",
+      "name": "POWER YOGA"
+    },
+    {
+      "id": "2026-09-04-19-00-19-15-xpress-mobility-zona-cross",
+      "date": "2026-09-04",
+      "day": "Viernes",
+      "start": "19:00",
+      "end": "19:15",
+      "room": "Zona Cross",
+      "name": "XPRESS MOBILITY"
+    },
+    {
+      "id": "2026-09-04-19-15-20-15-hyrox-zona-cross",
+      "date": "2026-09-04",
+      "day": "Viernes",
+      "start": "19:15",
+      "end": "20:15",
+      "room": "Zona Cross",
+      "name": "HYROX"
+    },
+    {
+      "id": "2026-09-04-19-15-20-00-virtual-cycle-sala-cycle",
+      "date": "2026-09-04",
+      "day": "Viernes",
+      "start": "19:15",
+      "end": "20:00",
+      "room": "Sala Cycle",
+      "name": "VIRTUAL CYCLE"
+    },
+    {
+      "id": "2026-09-04-20-30-21-15-virtual-cycle-sala-cycle",
+      "date": "2026-09-04",
+      "day": "Viernes",
       "start": "20:30",
       "end": "21:15",
       "room": "Sala Cycle",
