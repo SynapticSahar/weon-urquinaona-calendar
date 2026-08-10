@@ -2,1601 +2,8 @@
   "source": "https://www.weonclub.com/horarios-clases?club=17",
   "club": "We/On",
   "timezone": "Europe/Madrid",
-  "updated_at": "2026-08-09T19:26:06.455762+02:00",
+  "updated_at": "2026-08-10T07:21:15.205788+02:00",
   "classes": [
-    {
-      "id": "2026-08-03-07-15-08-00-cross-zona-cross",
-      "date": "2026-08-03",
-      "day": "Lunes",
-      "start": "07:15",
-      "end": "08:00",
-      "room": "Zona Cross",
-      "name": "CROSS"
-    },
-    {
-      "id": "2026-08-03-07-15-08-00-virtual-cycle-sala-cycle",
-      "date": "2026-08-03",
-      "day": "Lunes",
-      "start": "07:15",
-      "end": "08:00",
-      "room": "Sala Cycle",
-      "name": "VIRTUAL CYCLE"
-    },
-    {
-      "id": "2026-08-03-08-00-08-45-pilates-flow-studio-2",
-      "date": "2026-08-03",
-      "day": "Lunes",
-      "start": "08:00",
-      "end": "08:45",
-      "room": "Studio 2",
-      "name": "PILATES FLOW"
-    },
-    {
-      "id": "2026-08-03-08-00-08-15-xpress-gl-teo-zona-cross",
-      "date": "2026-08-03",
-      "day": "Lunes",
-      "start": "08:00",
-      "end": "08:15",
-      "room": "Zona Cross",
-      "name": "XPRESS GLÚTEO"
-    },
-    {
-      "id": "2026-08-03-09-00-09-45-virtual-cycle-sala-cycle",
-      "date": "2026-08-03",
-      "day": "Lunes",
-      "start": "09:00",
-      "end": "09:45",
-      "room": "Sala Cycle",
-      "name": "VIRTUAL CYCLE"
-    },
-    {
-      "id": "2026-08-03-09-30-10-15-body-pump-studio-1",
-      "date": "2026-08-03",
-      "day": "Lunes",
-      "start": "09:30",
-      "end": "10:15",
-      "room": "Studio 1",
-      "name": "BODY PUMP"
-    },
-    {
-      "id": "2026-08-03-09-30-10-15-yoga-strech-studio-2",
-      "date": "2026-08-03",
-      "day": "Lunes",
-      "start": "09:30",
-      "end": "10:15",
-      "room": "Studio 2",
-      "name": "YOGA STRECH"
-    },
-    {
-      "id": "2026-08-03-10-30-11-15-cycle-sala-cycle",
-      "date": "2026-08-03",
-      "day": "Lunes",
-      "start": "10:30",
-      "end": "11:15",
-      "room": "Sala Cycle",
-      "name": "CYCLE"
-    },
-    {
-      "id": "2026-08-03-10-30-11-15-espalda-sana-hipopresivos-studio-2",
-      "date": "2026-08-03",
-      "day": "Lunes",
-      "start": "10:30",
-      "end": "11:15",
-      "room": "Studio 2",
-      "name": "ESPALDA SANA HIPOPRESIVOS"
-    },
-    {
-      "id": "2026-08-03-11-15-12-00-aquafit-piscina",
-      "date": "2026-08-03",
-      "day": "Lunes",
-      "start": "11:15",
-      "end": "12:00",
-      "room": "Piscina",
-      "name": "AQUAFIT"
-    },
-    {
-      "id": "2026-08-03-11-30-11-45-xpress-gl-teo-zona-cross",
-      "date": "2026-08-03",
-      "day": "Lunes",
-      "start": "11:30",
-      "end": "11:45",
-      "room": "Zona Cross",
-      "name": "XPRESS GLÚTEO"
-    },
-    {
-      "id": "2026-08-03-13-00-13-45-virtual-cycle-sala-cycle",
-      "date": "2026-08-03",
-      "day": "Lunes",
-      "start": "13:00",
-      "end": "13:45",
-      "room": "Sala Cycle",
-      "name": "VIRTUAL CYCLE"
-    },
-    {
-      "id": "2026-08-03-13-30-13-45-xpress-gl-teo-zona-cross",
-      "date": "2026-08-03",
-      "day": "Lunes",
-      "start": "13:30",
-      "end": "13:45",
-      "room": "Zona Cross",
-      "name": "XPRESS GLÚTEO"
-    },
-    {
-      "id": "2026-08-03-14-15-15-00-cycle-sala-cycle",
-      "date": "2026-08-03",
-      "day": "Lunes",
-      "start": "14:15",
-      "end": "15:00",
-      "room": "Sala Cycle",
-      "name": "CYCLE"
-    },
-    {
-      "id": "2026-08-03-14-15-15-00-pilates-flow-studio-2",
-      "date": "2026-08-03",
-      "day": "Lunes",
-      "start": "14:15",
-      "end": "15:00",
-      "room": "Studio 2",
-      "name": "PILATES FLOW"
-    },
-    {
-      "id": "2026-08-03-14-30-15-15-body-pump-studio-1",
-      "date": "2026-08-03",
-      "day": "Lunes",
-      "start": "14:30",
-      "end": "15:15",
-      "room": "Studio 1",
-      "name": "BODY PUMP"
-    },
-    {
-      "id": "2026-08-03-17-00-17-45-virtual-cycle-sala-cycle",
-      "date": "2026-08-03",
-      "day": "Lunes",
-      "start": "17:00",
-      "end": "17:45",
-      "room": "Sala Cycle",
-      "name": "VIRTUAL CYCLE"
-    },
-    {
-      "id": "2026-08-03-17-30-18-15-boxing-zona-funcional",
-      "date": "2026-08-03",
-      "day": "Lunes",
-      "start": "17:30",
-      "end": "18:15",
-      "room": "Zona Funcional",
-      "name": "BOXING"
-    },
-    {
-      "id": "2026-08-03-17-30-18-15-core-trx-studio-1",
-      "date": "2026-08-03",
-      "day": "Lunes",
-      "start": "17:30",
-      "end": "18:15",
-      "room": "Studio 1",
-      "name": "CORE TRX"
-    },
-    {
-      "id": "2026-08-03-18-15-19-00-hipopresivos-studio-2",
-      "date": "2026-08-03",
-      "day": "Lunes",
-      "start": "18:15",
-      "end": "19:00",
-      "room": "Studio 2",
-      "name": "HIPOPRESIVOS"
-    },
-    {
-      "id": "2026-08-03-18-30-19-15-aquafit-piscina",
-      "date": "2026-08-03",
-      "day": "Lunes",
-      "start": "18:30",
-      "end": "19:15",
-      "room": "Piscina",
-      "name": "AQUAFIT"
-    },
-    {
-      "id": "2026-08-03-18-30-19-15-body-pump-studio-1",
-      "date": "2026-08-03",
-      "day": "Lunes",
-      "start": "18:30",
-      "end": "19:15",
-      "room": "Studio 1",
-      "name": "BODY PUMP"
-    },
-    {
-      "id": "2026-08-03-18-30-19-15-cycle-sala-cycle",
-      "date": "2026-08-03",
-      "day": "Lunes",
-      "start": "18:30",
-      "end": "19:15",
-      "room": "Sala Cycle",
-      "name": "CYCLE"
-    },
-    {
-      "id": "2026-08-03-19-15-20-00-power-yoga-studio-2",
-      "date": "2026-08-03",
-      "day": "Lunes",
-      "start": "19:15",
-      "end": "20:00",
-      "room": "Studio 2",
-      "name": "POWER YOGA"
-    },
-    {
-      "id": "2026-08-03-19-15-19-30-xpress-gl-teo-zona-cross",
-      "date": "2026-08-03",
-      "day": "Lunes",
-      "start": "19:15",
-      "end": "19:30",
-      "room": "Zona Cross",
-      "name": "XPRESS GLÚTEO"
-    },
-    {
-      "id": "2026-08-03-19-30-20-15-cycle-sala-cycle",
-      "date": "2026-08-03",
-      "day": "Lunes",
-      "start": "19:30",
-      "end": "20:15",
-      "room": "Sala Cycle",
-      "name": "CYCLE"
-    },
-    {
-      "id": "2026-08-03-19-30-20-30-hyrox-zona-cross",
-      "date": "2026-08-03",
-      "day": "Lunes",
-      "start": "19:30",
-      "end": "20:30",
-      "room": "Zona Cross",
-      "name": "HYROX"
-    },
-    {
-      "id": "2026-08-03-19-30-20-30-zumba-studio-1",
-      "date": "2026-08-03",
-      "day": "Lunes",
-      "start": "19:30",
-      "end": "20:30",
-      "room": "Studio 1",
-      "name": "ZUMBA"
-    },
-    {
-      "id": "2026-08-03-20-15-21-00-yin-yoga-meditacion-studio-2",
-      "date": "2026-08-03",
-      "day": "Lunes",
-      "start": "20:15",
-      "end": "21:00",
-      "room": "Studio 2",
-      "name": "YIN YOGA & MEDITACION"
-    },
-    {
-      "id": "2026-08-03-20-30-21-15-virtual-cycle-sala-cycle",
-      "date": "2026-08-03",
-      "day": "Lunes",
-      "start": "20:30",
-      "end": "21:15",
-      "room": "Sala Cycle",
-      "name": "VIRTUAL CYCLE"
-    },
-    {
-      "id": "2026-08-04-07-15-08-00-pilates-studio-2",
-      "date": "2026-08-04",
-      "day": "Martes",
-      "start": "07:15",
-      "end": "08:00",
-      "room": "Studio 2",
-      "name": "PILATES"
-    },
-    {
-      "id": "2026-08-04-08-00-08-45-aquafit-piscina",
-      "date": "2026-08-04",
-      "day": "Martes",
-      "start": "08:00",
-      "end": "08:45",
-      "room": "Piscina",
-      "name": "AQUAFIT"
-    },
-    {
-      "id": "2026-08-04-08-15-08-30-xpress-mobility-zona-cross",
-      "date": "2026-08-04",
-      "day": "Martes",
-      "start": "08:15",
-      "end": "08:30",
-      "room": "Zona Cross",
-      "name": "XPRESS MOBILITY"
-    },
-    {
-      "id": "2026-08-04-09-00-09-45-virtual-cycle-sala-cycle",
-      "date": "2026-08-04",
-      "day": "Martes",
-      "start": "09:00",
-      "end": "09:45",
-      "room": "Sala Cycle",
-      "name": "VIRTUAL CYCLE"
-    },
-    {
-      "id": "2026-08-04-09-15-10-15-yoga-advanced-eng-studio-2",
-      "date": "2026-08-04",
-      "day": "Martes",
-      "start": "09:15",
-      "end": "10:15",
-      "room": "Studio 2",
-      "name": "YOGA ADVANCED (ENG)"
-    },
-    {
-      "id": "2026-08-04-09-30-10-15-global-training-studio-1",
-      "date": "2026-08-04",
-      "day": "Martes",
-      "start": "09:30",
-      "end": "10:15",
-      "room": "Studio 1",
-      "name": "GLOBAL TRAINING"
-    },
-    {
-      "id": "2026-08-04-10-30-11-15-aeroyoga-studio-1",
-      "date": "2026-08-04",
-      "day": "Martes",
-      "start": "10:30",
-      "end": "11:15",
-      "room": "Studio 1",
-      "name": "AEROYOGA"
-    },
-    {
-      "id": "2026-08-04-10-30-11-15-espalda-sana-studio-2",
-      "date": "2026-08-04",
-      "day": "Martes",
-      "start": "10:30",
-      "end": "11:15",
-      "room": "Studio 2",
-      "name": "ESPALDA SANA"
-    },
-    {
-      "id": "2026-08-04-11-30-12-15-gap-studio-1",
-      "date": "2026-08-04",
-      "day": "Martes",
-      "start": "11:30",
-      "end": "12:15",
-      "room": "Studio 1",
-      "name": "GAP"
-    },
-    {
-      "id": "2026-08-04-11-30-11-45-xpress-gl-teo-zona-cross",
-      "date": "2026-08-04",
-      "day": "Martes",
-      "start": "11:30",
-      "end": "11:45",
-      "room": "Zona Cross",
-      "name": "XPRESS GLÚTEO"
-    },
-    {
-      "id": "2026-08-04-13-00-13-45-virtual-cycle-sala-cycle",
-      "date": "2026-08-04",
-      "day": "Martes",
-      "start": "13:00",
-      "end": "13:45",
-      "room": "Sala Cycle",
-      "name": "VIRTUAL CYCLE"
-    },
-    {
-      "id": "2026-08-04-13-00-13-15-xpress-gl-teo-zona-cross",
-      "date": "2026-08-04",
-      "day": "Martes",
-      "start": "13:00",
-      "end": "13:15",
-      "room": "Zona Cross",
-      "name": "XPRESS GLÚTEO"
-    },
-    {
-      "id": "2026-08-04-14-15-15-00-boxing-zona-funcional",
-      "date": "2026-08-04",
-      "day": "Martes",
-      "start": "14:15",
-      "end": "15:00",
-      "room": "Zona Funcional",
-      "name": "BOXING"
-    },
-    {
-      "id": "2026-08-04-14-15-15-00-cycle-sala-cycle",
-      "date": "2026-08-04",
-      "day": "Martes",
-      "start": "14:15",
-      "end": "15:00",
-      "room": "Sala Cycle",
-      "name": "CYCLE"
-    },
-    {
-      "id": "2026-08-04-14-15-15-00-power-yoga-studio-2",
-      "date": "2026-08-04",
-      "day": "Martes",
-      "start": "14:15",
-      "end": "15:00",
-      "room": "Studio 2",
-      "name": "POWER YOGA"
-    },
-    {
-      "id": "2026-08-04-14-30-15-15-body-pump-studio-1",
-      "date": "2026-08-04",
-      "day": "Martes",
-      "start": "14:30",
-      "end": "15:15",
-      "room": "Studio 1",
-      "name": "BODY PUMP"
-    },
-    {
-      "id": "2026-08-04-15-00-15-15-xpress-gl-teo-zona-cross",
-      "date": "2026-08-04",
-      "day": "Martes",
-      "start": "15:00",
-      "end": "15:15",
-      "room": "Zona Cross",
-      "name": "XPRESS GLÚTEO"
-    },
-    {
-      "id": "2026-08-04-17-00-17-45-virtual-cycle-sala-cycle",
-      "date": "2026-08-04",
-      "day": "Martes",
-      "start": "17:00",
-      "end": "17:45",
-      "room": "Sala Cycle",
-      "name": "VIRTUAL CYCLE"
-    },
-    {
-      "id": "2026-08-04-17-30-18-15-gap-studio-1",
-      "date": "2026-08-04",
-      "day": "Martes",
-      "start": "17:30",
-      "end": "18:15",
-      "room": "Studio 1",
-      "name": "GAP"
-    },
-    {
-      "id": "2026-08-04-17-30-17-45-xpress-gl-teo-zona-cross",
-      "date": "2026-08-04",
-      "day": "Martes",
-      "start": "17:30",
-      "end": "17:45",
-      "room": "Zona Cross",
-      "name": "XPRESS GLÚTEO"
-    },
-    {
-      "id": "2026-08-04-18-15-19-00-cycle-sala-cycle",
-      "date": "2026-08-04",
-      "day": "Martes",
-      "start": "18:15",
-      "end": "19:00",
-      "room": "Sala Cycle",
-      "name": "CYCLE"
-    },
-    {
-      "id": "2026-08-04-18-15-19-00-pilates-flow-studio-2",
-      "date": "2026-08-04",
-      "day": "Martes",
-      "start": "18:15",
-      "end": "19:00",
-      "room": "Studio 2",
-      "name": "PILATES FLOW"
-    },
-    {
-      "id": "2026-08-04-18-30-19-15-body-combat-studio-1",
-      "date": "2026-08-04",
-      "day": "Martes",
-      "start": "18:30",
-      "end": "19:15",
-      "room": "Studio 1",
-      "name": "BODY COMBAT"
-    },
-    {
-      "id": "2026-08-04-18-30-19-15-boxing-zona-funcional",
-      "date": "2026-08-04",
-      "day": "Martes",
-      "start": "18:30",
-      "end": "19:15",
-      "room": "Zona Funcional",
-      "name": "BOXING"
-    },
-    {
-      "id": "2026-08-04-19-15-20-00-barre-studio-2",
-      "date": "2026-08-04",
-      "day": "Martes",
-      "start": "19:15",
-      "end": "20:00",
-      "room": "Studio 2",
-      "name": "BARRE"
-    },
-    {
-      "id": "2026-08-04-19-15-19-30-xpress-gl-teo-zona-cross",
-      "date": "2026-08-04",
-      "day": "Martes",
-      "start": "19:15",
-      "end": "19:30",
-      "room": "Zona Cross",
-      "name": "XPRESS GLÚTEO"
-    },
-    {
-      "id": "2026-08-04-19-30-20-15-body-pump-studio-1",
-      "date": "2026-08-04",
-      "day": "Martes",
-      "start": "19:30",
-      "end": "20:15",
-      "room": "Studio 1",
-      "name": "BODY PUMP"
-    },
-    {
-      "id": "2026-08-04-19-30-20-30-hyrox-zona-cross",
-      "date": "2026-08-04",
-      "day": "Martes",
-      "start": "19:30",
-      "end": "20:30",
-      "room": "Zona Cross",
-      "name": "HYROX"
-    },
-    {
-      "id": "2026-08-04-20-15-21-15-power-yoga-studio-2",
-      "date": "2026-08-04",
-      "day": "Martes",
-      "start": "20:15",
-      "end": "21:15",
-      "room": "Studio 2",
-      "name": "POWER YOGA"
-    },
-    {
-      "id": "2026-08-04-20-30-21-15-virtual-cycle-sala-cycle",
-      "date": "2026-08-04",
-      "day": "Martes",
-      "start": "20:30",
-      "end": "21:15",
-      "room": "Sala Cycle",
-      "name": "VIRTUAL CYCLE"
-    },
-    {
-      "id": "2026-08-05-07-15-08-00-cross-training-strength-zona-cross",
-      "date": "2026-08-05",
-      "day": "Miércoles",
-      "start": "07:15",
-      "end": "08:00",
-      "room": "Zona Cross",
-      "name": "CROSS TRAINING STRENGTH"
-    },
-    {
-      "id": "2026-08-05-07-15-08-00-virtual-cycle-sala-cycle",
-      "date": "2026-08-05",
-      "day": "Miércoles",
-      "start": "07:15",
-      "end": "08:00",
-      "room": "Sala Cycle",
-      "name": "VIRTUAL CYCLE"
-    },
-    {
-      "id": "2026-08-05-08-30-08-45-xpress-mobility-zona-cross",
-      "date": "2026-08-05",
-      "day": "Miércoles",
-      "start": "08:30",
-      "end": "08:45",
-      "room": "Zona Cross",
-      "name": "XPRESS MOBILITY"
-    },
-    {
-      "id": "2026-08-05-09-00-09-45-virtual-cycle-sala-cycle",
-      "date": "2026-08-05",
-      "day": "Miércoles",
-      "start": "09:00",
-      "end": "09:45",
-      "room": "Sala Cycle",
-      "name": "VIRTUAL CYCLE"
-    },
-    {
-      "id": "2026-08-05-09-30-10-15-body-pump-studio-1",
-      "date": "2026-08-05",
-      "day": "Miércoles",
-      "start": "09:30",
-      "end": "10:15",
-      "room": "Studio 1",
-      "name": "BODY PUMP"
-    },
-    {
-      "id": "2026-08-05-09-30-10-15-power-yoga-studio-2",
-      "date": "2026-08-05",
-      "day": "Miércoles",
-      "start": "09:30",
-      "end": "10:15",
-      "room": "Studio 2",
-      "name": "POWER YOGA"
-    },
-    {
-      "id": "2026-08-05-09-30-09-45-xpress-gl-teo-zona-cross",
-      "date": "2026-08-05",
-      "day": "Miércoles",
-      "start": "09:30",
-      "end": "09:45",
-      "room": "Zona Cross",
-      "name": "XPRESS GLÚTEO"
-    },
-    {
-      "id": "2026-08-05-09-45-10-00-xpress-mobility-zona-cross",
-      "date": "2026-08-05",
-      "day": "Miércoles",
-      "start": "09:45",
-      "end": "10:00",
-      "room": "Zona Cross",
-      "name": "XPRESS MOBILITY"
-    },
-    {
-      "id": "2026-08-05-10-30-11-15-cycle-sala-cycle",
-      "date": "2026-08-05",
-      "day": "Miércoles",
-      "start": "10:30",
-      "end": "11:15",
-      "room": "Sala Cycle",
-      "name": "CYCLE"
-    },
-    {
-      "id": "2026-08-05-10-30-11-15-pilates-studio-2",
-      "date": "2026-08-05",
-      "day": "Miércoles",
-      "start": "10:30",
-      "end": "11:15",
-      "room": "Studio 2",
-      "name": "PILATES"
-    },
-    {
-      "id": "2026-08-05-10-30-10-45-xpress-gl-teo-zona-cross",
-      "date": "2026-08-05",
-      "day": "Miércoles",
-      "start": "10:30",
-      "end": "10:45",
-      "room": "Zona Cross",
-      "name": "XPRESS GLÚTEO"
-    },
-    {
-      "id": "2026-08-05-10-45-11-00-xpress-mobility-zona-cross",
-      "date": "2026-08-05",
-      "day": "Miércoles",
-      "start": "10:45",
-      "end": "11:00",
-      "room": "Zona Cross",
-      "name": "XPRESS MOBILITY"
-    },
-    {
-      "id": "2026-08-05-11-15-12-00-aquafit-piscina",
-      "date": "2026-08-05",
-      "day": "Miércoles",
-      "start": "11:15",
-      "end": "12:00",
-      "room": "Piscina",
-      "name": "AQUAFIT"
-    },
-    {
-      "id": "2026-08-05-13-00-13-45-virtual-cycle-sala-cycle",
-      "date": "2026-08-05",
-      "day": "Miércoles",
-      "start": "13:00",
-      "end": "13:45",
-      "room": "Sala Cycle",
-      "name": "VIRTUAL CYCLE"
-    },
-    {
-      "id": "2026-08-05-14-15-15-15-hyrox-zona-cross",
-      "date": "2026-08-05",
-      "day": "Miércoles",
-      "start": "14:15",
-      "end": "15:15",
-      "room": "Zona Cross",
-      "name": "HYROX"
-    },
-    {
-      "id": "2026-08-05-14-15-15-00-pilates-studio-2",
-      "date": "2026-08-05",
-      "day": "Miércoles",
-      "start": "14:15",
-      "end": "15:00",
-      "room": "Studio 2",
-      "name": "PILATES"
-    },
-    {
-      "id": "2026-08-05-14-15-15-00-virtual-cycle-sala-cycle",
-      "date": "2026-08-05",
-      "day": "Miércoles",
-      "start": "14:15",
-      "end": "15:00",
-      "room": "Sala Cycle",
-      "name": "VIRTUAL CYCLE"
-    },
-    {
-      "id": "2026-08-05-14-30-15-15-body-combat-studio-1",
-      "date": "2026-08-05",
-      "day": "Miércoles",
-      "start": "14:30",
-      "end": "15:15",
-      "room": "Studio 1",
-      "name": "BODY COMBAT"
-    },
-    {
-      "id": "2026-08-05-15-30-15-45-xpress-mobility-zona-cross",
-      "date": "2026-08-05",
-      "day": "Miércoles",
-      "start": "15:30",
-      "end": "15:45",
-      "room": "Zona Cross",
-      "name": "XPRESS MOBILITY"
-    },
-    {
-      "id": "2026-08-05-17-00-17-45-virtual-cycle-sala-cycle",
-      "date": "2026-08-05",
-      "day": "Miércoles",
-      "start": "17:00",
-      "end": "17:45",
-      "room": "Sala Cycle",
-      "name": "VIRTUAL CYCLE"
-    },
-    {
-      "id": "2026-08-05-17-00-17-15-xpress-gl-teo-zona-cross",
-      "date": "2026-08-05",
-      "day": "Miércoles",
-      "start": "17:00",
-      "end": "17:15",
-      "room": "Zona Cross",
-      "name": "XPRESS GLÚTEO"
-    },
-    {
-      "id": "2026-08-05-17-15-17-30-xpress-mobility-zona-cross",
-      "date": "2026-08-05",
-      "day": "Miércoles",
-      "start": "17:15",
-      "end": "17:30",
-      "room": "Zona Cross",
-      "name": "XPRESS MOBILITY"
-    },
-    {
-      "id": "2026-08-05-17-30-18-15-boxing-zona-funcional",
-      "date": "2026-08-05",
-      "day": "Miércoles",
-      "start": "17:30",
-      "end": "18:15",
-      "room": "Zona Funcional",
-      "name": "BOXING"
-    },
-    {
-      "id": "2026-08-05-17-30-18-15-core-trx-studio-1",
-      "date": "2026-08-05",
-      "day": "Miércoles",
-      "start": "17:30",
-      "end": "18:15",
-      "room": "Studio 1",
-      "name": "CORE TRX"
-    },
-    {
-      "id": "2026-08-05-18-15-19-00-pilates-flow-studio-2",
-      "date": "2026-08-05",
-      "day": "Miércoles",
-      "start": "18:15",
-      "end": "19:00",
-      "room": "Studio 2",
-      "name": "PILATES FLOW"
-    },
-    {
-      "id": "2026-08-05-18-30-19-15-body-pump-studio-1",
-      "date": "2026-08-05",
-      "day": "Miércoles",
-      "start": "18:30",
-      "end": "19:15",
-      "room": "Studio 1",
-      "name": "BODY PUMP"
-    },
-    {
-      "id": "2026-08-05-18-30-19-15-cycle-sala-cycle",
-      "date": "2026-08-05",
-      "day": "Miércoles",
-      "start": "18:30",
-      "end": "19:15",
-      "room": "Sala Cycle",
-      "name": "CYCLE"
-    },
-    {
-      "id": "2026-08-05-19-00-19-15-xpress-mobility-zona-cross",
-      "date": "2026-08-05",
-      "day": "Miércoles",
-      "start": "19:00",
-      "end": "19:15",
-      "room": "Zona Cross",
-      "name": "XPRESS MOBILITY"
-    },
-    {
-      "id": "2026-08-05-19-15-20-00-power-yoga-studio-2",
-      "date": "2026-08-05",
-      "day": "Miércoles",
-      "start": "19:15",
-      "end": "20:00",
-      "room": "Studio 2",
-      "name": "POWER YOGA"
-    },
-    {
-      "id": "2026-08-05-19-15-19-30-xpress-gl-teo-zona-cross",
-      "date": "2026-08-05",
-      "day": "Miércoles",
-      "start": "19:15",
-      "end": "19:30",
-      "room": "Zona Cross",
-      "name": "XPRESS GLÚTEO"
-    },
-    {
-      "id": "2026-08-05-19-30-20-15-cycle-sala-cycle",
-      "date": "2026-08-05",
-      "day": "Miércoles",
-      "start": "19:30",
-      "end": "20:15",
-      "room": "Sala Cycle",
-      "name": "CYCLE"
-    },
-    {
-      "id": "2026-08-05-19-30-20-30-hyrox-zona-cross",
-      "date": "2026-08-05",
-      "day": "Miércoles",
-      "start": "19:30",
-      "end": "20:30",
-      "room": "Zona Cross",
-      "name": "HYROX"
-    },
-    {
-      "id": "2026-08-05-19-30-20-30-zumba-studio-1",
-      "date": "2026-08-05",
-      "day": "Miércoles",
-      "start": "19:30",
-      "end": "20:30",
-      "room": "Studio 1",
-      "name": "ZUMBA"
-    },
-    {
-      "id": "2026-08-05-20-15-21-15-yoga-strech-studio-2",
-      "date": "2026-08-05",
-      "day": "Miércoles",
-      "start": "20:15",
-      "end": "21:15",
-      "room": "Studio 2",
-      "name": "YOGA STRECH"
-    },
-    {
-      "id": "2026-08-05-20-30-21-15-virtual-cycle-sala-cycle",
-      "date": "2026-08-05",
-      "day": "Miércoles",
-      "start": "20:30",
-      "end": "21:15",
-      "room": "Sala Cycle",
-      "name": "VIRTUAL CYCLE"
-    },
-    {
-      "id": "2026-08-06-07-15-08-00-power-pilates-studio-2",
-      "date": "2026-08-06",
-      "day": "Jueves",
-      "start": "07:15",
-      "end": "08:00",
-      "room": "Studio 2",
-      "name": "POWER PILATES"
-    },
-    {
-      "id": "2026-08-06-07-15-08-00-virtual-cycle-sala-cycle",
-      "date": "2026-08-06",
-      "day": "Jueves",
-      "start": "07:15",
-      "end": "08:00",
-      "room": "Sala Cycle",
-      "name": "VIRTUAL CYCLE"
-    },
-    {
-      "id": "2026-08-06-08-15-08-30-xpress-mobility-zona-cross",
-      "date": "2026-08-06",
-      "day": "Jueves",
-      "start": "08:15",
-      "end": "08:30",
-      "room": "Zona Cross",
-      "name": "XPRESS MOBILITY"
-    },
-    {
-      "id": "2026-08-06-09-00-09-45-virtual-cycle-sala-cycle",
-      "date": "2026-08-06",
-      "day": "Jueves",
-      "start": "09:00",
-      "end": "09:45",
-      "room": "Sala Cycle",
-      "name": "VIRTUAL CYCLE"
-    },
-    {
-      "id": "2026-08-06-09-30-10-15-cardio-barre-studio-2",
-      "date": "2026-08-06",
-      "day": "Jueves",
-      "start": "09:30",
-      "end": "10:15",
-      "room": "Studio 2",
-      "name": "CARDIO BARRE"
-    },
-    {
-      "id": "2026-08-06-09-30-10-15-global-training-studio-1",
-      "date": "2026-08-06",
-      "day": "Jueves",
-      "start": "09:30",
-      "end": "10:15",
-      "room": "Studio 1",
-      "name": "GLOBAL TRAINING"
-    },
-    {
-      "id": "2026-08-06-10-30-11-15-aeroyoga-studio-1",
-      "date": "2026-08-06",
-      "day": "Jueves",
-      "start": "10:30",
-      "end": "11:15",
-      "room": "Studio 1",
-      "name": "AEROYOGA"
-    },
-    {
-      "id": "2026-08-06-10-30-11-15-espalda-sana-studio-2",
-      "date": "2026-08-06",
-      "day": "Jueves",
-      "start": "10:30",
-      "end": "11:15",
-      "room": "Studio 2",
-      "name": "ESPALDA SANA"
-    },
-    {
-      "id": "2026-08-06-11-30-11-45-xpress-gl-teo-zona-cross",
-      "date": "2026-08-06",
-      "day": "Jueves",
-      "start": "11:30",
-      "end": "11:45",
-      "room": "Zona Cross",
-      "name": "XPRESS GLÚTEO"
-    },
-    {
-      "id": "2026-08-06-11-45-12-00-xpress-mobility-zona-cross",
-      "date": "2026-08-06",
-      "day": "Jueves",
-      "start": "11:45",
-      "end": "12:00",
-      "room": "Zona Cross",
-      "name": "XPRESS MOBILITY"
-    },
-    {
-      "id": "2026-08-06-13-00-13-45-virtual-cycle-sala-cycle",
-      "date": "2026-08-06",
-      "day": "Jueves",
-      "start": "13:00",
-      "end": "13:45",
-      "room": "Sala Cycle",
-      "name": "VIRTUAL CYCLE"
-    },
-    {
-      "id": "2026-08-06-13-15-13-30-xpress-mobility-zona-cross",
-      "date": "2026-08-06",
-      "day": "Jueves",
-      "start": "13:15",
-      "end": "13:30",
-      "room": "Zona Cross",
-      "name": "XPRESS MOBILITY"
-    },
-    {
-      "id": "2026-08-06-14-15-15-00-cycle-sala-cycle",
-      "date": "2026-08-06",
-      "day": "Jueves",
-      "start": "14:15",
-      "end": "15:00",
-      "room": "Sala Cycle",
-      "name": "CYCLE"
-    },
-    {
-      "id": "2026-08-06-14-15-15-00-power-yoga-studio-2",
-      "date": "2026-08-06",
-      "day": "Jueves",
-      "start": "14:15",
-      "end": "15:00",
-      "room": "Studio 2",
-      "name": "POWER YOGA"
-    },
-    {
-      "id": "2026-08-06-14-30-15-15-body-pump-studio-1",
-      "date": "2026-08-06",
-      "day": "Jueves",
-      "start": "14:30",
-      "end": "15:15",
-      "room": "Studio 1",
-      "name": "BODY PUMP"
-    },
-    {
-      "id": "2026-08-06-15-00-15-15-xpress-gl-teo-zona-cross",
-      "date": "2026-08-06",
-      "day": "Jueves",
-      "start": "15:00",
-      "end": "15:15",
-      "room": "Zona Cross",
-      "name": "XPRESS GLÚTEO"
-    },
-    {
-      "id": "2026-08-06-15-15-15-30-xpress-mobility-zona-cross",
-      "date": "2026-08-06",
-      "day": "Jueves",
-      "start": "15:15",
-      "end": "15:30",
-      "room": "Zona Cross",
-      "name": "XPRESS MOBILITY"
-    },
-    {
-      "id": "2026-08-06-17-00-17-45-virtual-cycle-sala-cycle",
-      "date": "2026-08-06",
-      "day": "Jueves",
-      "start": "17:00",
-      "end": "17:45",
-      "room": "Sala Cycle",
-      "name": "VIRTUAL CYCLE"
-    },
-    {
-      "id": "2026-08-06-17-30-18-15-gap-studio-1",
-      "date": "2026-08-06",
-      "day": "Jueves",
-      "start": "17:30",
-      "end": "18:15",
-      "room": "Studio 1",
-      "name": "GAP"
-    },
-    {
-      "id": "2026-08-06-18-15-19-00-cardio-barre-studio-2",
-      "date": "2026-08-06",
-      "day": "Jueves",
-      "start": "18:15",
-      "end": "19:00",
-      "room": "Studio 2",
-      "name": "CARDIO BARRE"
-    },
-    {
-      "id": "2026-08-06-18-15-19-00-cycle-sala-cycle",
-      "date": "2026-08-06",
-      "day": "Jueves",
-      "start": "18:15",
-      "end": "19:00",
-      "room": "Sala Cycle",
-      "name": "CYCLE"
-    },
-    {
-      "id": "2026-08-06-18-30-19-15-boxing-zona-funcional",
-      "date": "2026-08-06",
-      "day": "Jueves",
-      "start": "18:30",
-      "end": "19:15",
-      "room": "Zona Funcional",
-      "name": "BOXING"
-    },
-    {
-      "id": "2026-08-06-18-45-19-00-xpress-mobility-zona-cross",
-      "date": "2026-08-06",
-      "day": "Jueves",
-      "start": "18:45",
-      "end": "19:00",
-      "room": "Zona Cross",
-      "name": "XPRESS MOBILITY"
-    },
-    {
-      "id": "2026-08-06-19-00-19-15-xpress-mobility-zona-cross",
-      "date": "2026-08-06",
-      "day": "Jueves",
-      "start": "19:00",
-      "end": "19:15",
-      "room": "Zona Cross",
-      "name": "XPRESS MOBILITY"
-    },
-    {
-      "id": "2026-08-06-19-15-19-30-xpress-gl-teo-zona-cross",
-      "date": "2026-08-06",
-      "day": "Jueves",
-      "start": "19:15",
-      "end": "19:30",
-      "room": "Zona Cross",
-      "name": "XPRESS GLÚTEO"
-    },
-    {
-      "id": "2026-08-06-19-15-20-00-yoga-strech-studio-2",
-      "date": "2026-08-06",
-      "day": "Jueves",
-      "start": "19:15",
-      "end": "20:00",
-      "room": "Studio 2",
-      "name": "YOGA STRECH"
-    },
-    {
-      "id": "2026-08-06-19-30-20-15-body-pump-studio-1",
-      "date": "2026-08-06",
-      "day": "Jueves",
-      "start": "19:30",
-      "end": "20:15",
-      "room": "Studio 1",
-      "name": "BODY PUMP"
-    },
-    {
-      "id": "2026-08-06-19-30-20-30-hyrox-zona-cross",
-      "date": "2026-08-06",
-      "day": "Jueves",
-      "start": "19:30",
-      "end": "20:30",
-      "room": "Zona Cross",
-      "name": "HYROX"
-    },
-    {
-      "id": "2026-08-06-20-15-21-15-pilates-studio-2",
-      "date": "2026-08-06",
-      "day": "Jueves",
-      "start": "20:15",
-      "end": "21:15",
-      "room": "Studio 2",
-      "name": "PILATES"
-    },
-    {
-      "id": "2026-08-06-20-15-20-30-xpress-gl-teo-zona-funcional",
-      "date": "2026-08-06",
-      "day": "Jueves",
-      "start": "20:15",
-      "end": "20:30",
-      "room": "Zona Funcional",
-      "name": "XPRESS GLÚTEO"
-    },
-    {
-      "id": "2026-08-06-20-30-21-15-virtual-cycle-sala-cycle",
-      "date": "2026-08-06",
-      "day": "Jueves",
-      "start": "20:30",
-      "end": "21:15",
-      "room": "Sala Cycle",
-      "name": "VIRTUAL CYCLE"
-    },
-    {
-      "id": "2026-08-07-07-15-08-00-cross-zona-cross",
-      "date": "2026-08-07",
-      "day": "Viernes",
-      "start": "07:15",
-      "end": "08:00",
-      "room": "Zona Cross",
-      "name": "CROSS"
-    },
-    {
-      "id": "2026-08-07-07-15-08-00-virtual-cycle-sala-cycle",
-      "date": "2026-08-07",
-      "day": "Viernes",
-      "start": "07:15",
-      "end": "08:00",
-      "room": "Sala Cycle",
-      "name": "VIRTUAL CYCLE"
-    },
-    {
-      "id": "2026-08-07-09-00-09-45-virtual-cycle-sala-cycle",
-      "date": "2026-08-07",
-      "day": "Viernes",
-      "start": "09:00",
-      "end": "09:45",
-      "room": "Sala Cycle",
-      "name": "VIRTUAL CYCLE"
-    },
-    {
-      "id": "2026-08-07-09-30-10-15-body-pump-studio-1",
-      "date": "2026-08-07",
-      "day": "Viernes",
-      "start": "09:30",
-      "end": "10:15",
-      "room": "Studio 1",
-      "name": "BODY PUMP"
-    },
-    {
-      "id": "2026-08-07-09-30-10-15-yoga-strech-studio-2",
-      "date": "2026-08-07",
-      "day": "Viernes",
-      "start": "09:30",
-      "end": "10:15",
-      "room": "Studio 2",
-      "name": "YOGA STRECH"
-    },
-    {
-      "id": "2026-08-07-10-30-11-15-aeroyoga-iniciacion-studio-1",
-      "date": "2026-08-07",
-      "day": "Viernes",
-      "start": "10:30",
-      "end": "11:15",
-      "room": "Studio 1",
-      "name": "AEROYOGA (INICIACION)"
-    },
-    {
-      "id": "2026-08-07-10-30-11-15-cycle-sala-cycle",
-      "date": "2026-08-07",
-      "day": "Viernes",
-      "start": "10:30",
-      "end": "11:15",
-      "room": "Sala Cycle",
-      "name": "CYCLE"
-    },
-    {
-      "id": "2026-08-07-11-15-12-00-aquafit-piscina",
-      "date": "2026-08-07",
-      "day": "Viernes",
-      "start": "11:15",
-      "end": "12:00",
-      "room": "Piscina",
-      "name": "AQUAFIT"
-    },
-    {
-      "id": "2026-08-07-11-30-12-15-power-pilates-studio-2",
-      "date": "2026-08-07",
-      "day": "Viernes",
-      "start": "11:30",
-      "end": "12:15",
-      "room": "Studio 2",
-      "name": "POWER PILATES"
-    },
-    {
-      "id": "2026-08-07-13-00-13-45-virtual-cycle-sala-cycle",
-      "date": "2026-08-07",
-      "day": "Viernes",
-      "start": "13:00",
-      "end": "13:45",
-      "room": "Sala Cycle",
-      "name": "VIRTUAL CYCLE"
-    },
-    {
-      "id": "2026-08-07-13-00-13-15-xpress-gl-teo-zona-cross",
-      "date": "2026-08-07",
-      "day": "Viernes",
-      "start": "13:00",
-      "end": "13:15",
-      "room": "Zona Cross",
-      "name": "XPRESS GLÚTEO"
-    },
-    {
-      "id": "2026-08-07-13-15-13-30-xpress-mobility-zona-cross",
-      "date": "2026-08-07",
-      "day": "Viernes",
-      "start": "13:15",
-      "end": "13:30",
-      "room": "Zona Cross",
-      "name": "XPRESS MOBILITY"
-    },
-    {
-      "id": "2026-08-07-17-00-17-45-virtual-cycle-sala-cycle",
-      "date": "2026-08-07",
-      "day": "Viernes",
-      "start": "17:00",
-      "end": "17:45",
-      "room": "Sala Cycle",
-      "name": "VIRTUAL CYCLE"
-    },
-    {
-      "id": "2026-08-07-17-00-17-15-xpress-gl-teo-zona-cross",
-      "date": "2026-08-07",
-      "day": "Viernes",
-      "start": "17:00",
-      "end": "17:15",
-      "room": "Zona Cross",
-      "name": "XPRESS GLÚTEO"
-    },
-    {
-      "id": "2026-08-07-17-15-17-30-xpress-mobility-zona-cross",
-      "date": "2026-08-07",
-      "day": "Viernes",
-      "start": "17:15",
-      "end": "17:30",
-      "room": "Zona Cross",
-      "name": "XPRESS MOBILITY"
-    },
-    {
-      "id": "2026-08-07-18-00-18-45-pilates-studio-2",
-      "date": "2026-08-07",
-      "day": "Viernes",
-      "start": "18:00",
-      "end": "18:45",
-      "room": "Studio 2",
-      "name": "PILATES"
-    },
-    {
-      "id": "2026-08-07-18-15-19-00-body-pump-studio-1",
-      "date": "2026-08-07",
-      "day": "Viernes",
-      "start": "18:15",
-      "end": "19:00",
-      "room": "Studio 1",
-      "name": "BODY PUMP"
-    },
-    {
-      "id": "2026-08-07-19-00-19-45-power-yoga-studio-2",
-      "date": "2026-08-07",
-      "day": "Viernes",
-      "start": "19:00",
-      "end": "19:45",
-      "room": "Studio 2",
-      "name": "POWER YOGA"
-    },
-    {
-      "id": "2026-08-07-19-00-19-15-xpress-mobility-zona-cross",
-      "date": "2026-08-07",
-      "day": "Viernes",
-      "start": "19:00",
-      "end": "19:15",
-      "room": "Zona Cross",
-      "name": "XPRESS MOBILITY"
-    },
-    {
-      "id": "2026-08-07-19-15-20-15-hyrox-zona-cross",
-      "date": "2026-08-07",
-      "day": "Viernes",
-      "start": "19:15",
-      "end": "20:15",
-      "room": "Zona Cross",
-      "name": "HYROX"
-    },
-    {
-      "id": "2026-08-07-19-15-20-00-virtual-cycle-sala-cycle",
-      "date": "2026-08-07",
-      "day": "Viernes",
-      "start": "19:15",
-      "end": "20:00",
-      "room": "Sala Cycle",
-      "name": "VIRTUAL CYCLE"
-    },
-    {
-      "id": "2026-08-07-20-30-21-15-virtual-cycle-sala-cycle",
-      "date": "2026-08-07",
-      "day": "Viernes",
-      "start": "20:30",
-      "end": "21:15",
-      "room": "Sala Cycle",
-      "name": "VIRTUAL CYCLE"
-    },
-    {
-      "id": "2026-08-08-09-30-10-15-body-pump-studio-1",
-      "date": "2026-08-08",
-      "day": "Sábado",
-      "start": "09:30",
-      "end": "10:15",
-      "room": "Studio 1",
-      "name": "BODY PUMP"
-    },
-    {
-      "id": "2026-08-08-10-00-10-45-yoga-strech-studio-2",
-      "date": "2026-08-08",
-      "day": "Sábado",
-      "start": "10:00",
-      "end": "10:45",
-      "room": "Studio 2",
-      "name": "YOGA STRECH"
-    },
-    {
-      "id": "2026-08-08-10-30-11-15-cycle-sala-cycle",
-      "date": "2026-08-08",
-      "day": "Sábado",
-      "start": "10:30",
-      "end": "11:15",
-      "room": "Sala Cycle",
-      "name": "CYCLE"
-    },
-    {
-      "id": "2026-08-08-10-30-10-45-xpress-gl-teo-zona-cross",
-      "date": "2026-08-08",
-      "day": "Sábado",
-      "start": "10:30",
-      "end": "10:45",
-      "room": "Zona Cross",
-      "name": "XPRESS GLÚTEO"
-    },
-    {
-      "id": "2026-08-08-10-45-11-00-xpress-mobility-zona-cross",
-      "date": "2026-08-08",
-      "day": "Sábado",
-      "start": "10:45",
-      "end": "11:00",
-      "room": "Zona Cross",
-      "name": "XPRESS MOBILITY"
-    },
-    {
-      "id": "2026-08-08-11-00-11-45-barre-studio-2",
-      "date": "2026-08-08",
-      "day": "Sábado",
-      "start": "11:00",
-      "end": "11:45",
-      "room": "Studio 2",
-      "name": "BARRE"
-    },
-    {
-      "id": "2026-08-08-11-30-12-30-hyrox-zona-cross",
-      "date": "2026-08-08",
-      "day": "Sábado",
-      "start": "11:30",
-      "end": "12:30",
-      "room": "Zona Cross",
-      "name": "HYROX"
-    },
-    {
-      "id": "2026-08-08-12-00-13-00-yoga-advanced-eng-studio-2",
-      "date": "2026-08-08",
-      "day": "Sábado",
-      "start": "12:00",
-      "end": "13:00",
-      "room": "Studio 2",
-      "name": "YOGA ADVANCED (ENG)"
-    },
-    {
-      "id": "2026-08-08-13-00-13-45-virtual-cycle-sala-cycle",
-      "date": "2026-08-08",
-      "day": "Sábado",
-      "start": "13:00",
-      "end": "13:45",
-      "room": "Sala Cycle",
-      "name": "VIRTUAL CYCLE"
-    },
-    {
-      "id": "2026-08-08-16-00-16-15-xpress-gl-teo-zona-funcional",
-      "date": "2026-08-08",
-      "day": "Sábado",
-      "start": "16:00",
-      "end": "16:15",
-      "room": "Zona Funcional",
-      "name": "XPRESS GLÚTEO"
-    },
-    {
-      "id": "2026-08-08-17-00-17-30-cross-zona-cross",
-      "date": "2026-08-08",
-      "day": "Sábado",
-      "start": "17:00",
-      "end": "17:30",
-      "room": "Zona Cross",
-      "name": "CROSS"
-    },
-    {
-      "id": "2026-08-08-17-00-17-45-virtual-cycle-sala-cycle",
-      "date": "2026-08-08",
-      "day": "Sábado",
-      "start": "17:00",
-      "end": "17:45",
-      "room": "Sala Cycle",
-      "name": "VIRTUAL CYCLE"
-    },
-    {
-      "id": "2026-08-08-18-30-18-45-xpress-gl-teo-zona-cross",
-      "date": "2026-08-08",
-      "day": "Sábado",
-      "start": "18:30",
-      "end": "18:45",
-      "room": "Zona Cross",
-      "name": "XPRESS GLÚTEO"
-    },
-    {
-      "id": "2026-08-08-18-45-19-00-xpress-mobility-zona-cross",
-      "date": "2026-08-08",
-      "day": "Sábado",
-      "start": "18:45",
-      "end": "19:00",
-      "room": "Zona Cross",
-      "name": "XPRESS MOBILITY"
-    },
-    {
-      "id": "2026-08-09-10-00-10-45-pilates-studio-2",
-      "date": "2026-08-09",
-      "day": "Domingo",
-      "start": "10:00",
-      "end": "10:45",
-      "room": "Studio 2",
-      "name": "PILATES"
-    },
-    {
-      "id": "2026-08-09-10-30-11-15-cycle-sala-cycle",
-      "date": "2026-08-09",
-      "day": "Domingo",
-      "start": "10:30",
-      "end": "11:15",
-      "room": "Sala Cycle",
-      "name": "CYCLE"
-    },
-    {
-      "id": "2026-08-09-10-30-10-45-xpress-gl-teo-zona-cross",
-      "date": "2026-08-09",
-      "day": "Domingo",
-      "start": "10:30",
-      "end": "10:45",
-      "room": "Zona Cross",
-      "name": "XPRESS GLÚTEO"
-    },
-    {
-      "id": "2026-08-09-10-45-11-00-xpress-mobility-zona-cross",
-      "date": "2026-08-09",
-      "day": "Domingo",
-      "start": "10:45",
-      "end": "11:00",
-      "room": "Zona Cross",
-      "name": "XPRESS MOBILITY"
-    },
-    {
-      "id": "2026-08-09-11-00-12-00-power-yoga-studio-2",
-      "date": "2026-08-09",
-      "day": "Domingo",
-      "start": "11:00",
-      "end": "12:00",
-      "room": "Studio 2",
-      "name": "POWER YOGA"
-    },
-    {
-      "id": "2026-08-09-11-15-11-30-xpress-gl-teo-zona-cross",
-      "date": "2026-08-09",
-      "day": "Domingo",
-      "start": "11:15",
-      "end": "11:30",
-      "room": "Zona Cross",
-      "name": "XPRESS GLÚTEO"
-    },
-    {
-      "id": "2026-08-09-11-30-12-15-body-pump-studio-1",
-      "date": "2026-08-09",
-      "day": "Domingo",
-      "start": "11:30",
-      "end": "12:15",
-      "room": "Studio 1",
-      "name": "BODY PUMP"
-    },
-    {
-      "id": "2026-08-09-11-30-11-45-xpress-mobility-zona-cross",
-      "date": "2026-08-09",
-      "day": "Domingo",
-      "start": "11:30",
-      "end": "11:45",
-      "room": "Zona Cross",
-      "name": "XPRESS MOBILITY"
-    },
-    {
-      "id": "2026-08-09-12-15-12-30-xpress-gl-teo-zona-cross",
-      "date": "2026-08-09",
-      "day": "Domingo",
-      "start": "12:15",
-      "end": "12:30",
-      "room": "Zona Cross",
-      "name": "XPRESS GLÚTEO"
-    },
-    {
-      "id": "2026-08-09-13-00-13-45-virtual-cycle-sala-cycle",
-      "date": "2026-08-09",
-      "day": "Domingo",
-      "start": "13:00",
-      "end": "13:45",
-      "room": "Sala Cycle",
-      "name": "VIRTUAL CYCLE"
-    },
-    {
-      "id": "2026-08-09-17-00-17-15-xpress-gl-teo-zona-funcional",
-      "date": "2026-08-09",
-      "day": "Domingo",
-      "start": "17:00",
-      "end": "17:15",
-      "room": "Zona Funcional",
-      "name": "XPRESS GLÚTEO"
-    },
-    {
-      "id": "2026-08-09-17-30-18-15-pilates-studio-2",
-      "date": "2026-08-09",
-      "day": "Domingo",
-      "start": "17:30",
-      "end": "18:15",
-      "room": "Studio 2",
-      "name": "PILATES"
-    },
-    {
-      "id": "2026-08-09-18-00-18-30-hiit-45-zona-funcional",
-      "date": "2026-08-09",
-      "day": "Domingo",
-      "start": "18:00",
-      "end": "18:30",
-      "room": "Zona Funcional",
-      "name": "HIIT 45"
-    },
-    {
-      "id": "2026-08-09-18-30-18-45-xpress-mobility-zona-funcional",
-      "date": "2026-08-09",
-      "day": "Domingo",
-      "start": "18:30",
-      "end": "18:45",
-      "room": "Zona Funcional",
-      "name": "XPRESS MOBILITY"
-    },
-    {
-      "id": "2026-08-09-19-15-19-30-xpress-gl-teo-zona-funcional",
-      "date": "2026-08-09",
-      "day": "Domingo",
-      "start": "19:15",
-      "end": "19:30",
-      "room": "Zona Funcional",
-      "name": "XPRESS GLÚTEO"
-    },
     {
       "id": "2026-08-10-07-15-08-00-cross-zona-cross",
       "date": "2026-08-10",
@@ -8270,6 +6677,321 @@
       "id": "2026-09-07-20-30-21-15-virtual-cycle-sala-cycle",
       "date": "2026-09-07",
       "day": "Lunes",
+      "start": "20:30",
+      "end": "21:15",
+      "room": "Sala Cycle",
+      "name": "VIRTUAL CYCLE"
+    },
+    {
+      "id": "2026-09-08-07-15-08-00-pilates-studio-2",
+      "date": "2026-09-08",
+      "day": "Martes",
+      "start": "07:15",
+      "end": "08:00",
+      "room": "Studio 2",
+      "name": "PILATES"
+    },
+    {
+      "id": "2026-09-08-08-00-08-45-aquafit-piscina",
+      "date": "2026-09-08",
+      "day": "Martes",
+      "start": "08:00",
+      "end": "08:45",
+      "room": "Piscina",
+      "name": "AQUAFIT"
+    },
+    {
+      "id": "2026-09-08-08-15-08-30-xpress-mobility-zona-cross",
+      "date": "2026-09-08",
+      "day": "Martes",
+      "start": "08:15",
+      "end": "08:30",
+      "room": "Zona Cross",
+      "name": "XPRESS MOBILITY"
+    },
+    {
+      "id": "2026-09-08-08-30-09-15-body-pump-studio-1",
+      "date": "2026-09-08",
+      "day": "Martes",
+      "start": "08:30",
+      "end": "09:15",
+      "room": "Studio 1",
+      "name": "BODY PUMP"
+    },
+    {
+      "id": "2026-09-08-09-00-09-45-virtual-cycle-sala-cycle",
+      "date": "2026-09-08",
+      "day": "Martes",
+      "start": "09:00",
+      "end": "09:45",
+      "room": "Sala Cycle",
+      "name": "VIRTUAL CYCLE"
+    },
+    {
+      "id": "2026-09-08-09-15-10-15-yoga-advanced-eng-studio-2",
+      "date": "2026-09-08",
+      "day": "Martes",
+      "start": "09:15",
+      "end": "10:15",
+      "room": "Studio 2",
+      "name": "YOGA ADVANCED (ENG)"
+    },
+    {
+      "id": "2026-09-08-09-30-10-15-global-training-studio-1",
+      "date": "2026-09-08",
+      "day": "Martes",
+      "start": "09:30",
+      "end": "10:15",
+      "room": "Studio 1",
+      "name": "GLOBAL TRAINING"
+    },
+    {
+      "id": "2026-09-08-10-30-11-15-aeroyoga-studio-1",
+      "date": "2026-09-08",
+      "day": "Martes",
+      "start": "10:30",
+      "end": "11:15",
+      "room": "Studio 1",
+      "name": "AEROYOGA"
+    },
+    {
+      "id": "2026-09-08-10-30-11-15-espalda-sana-studio-2",
+      "date": "2026-09-08",
+      "day": "Martes",
+      "start": "10:30",
+      "end": "11:15",
+      "room": "Studio 2",
+      "name": "ESPALDA SANA"
+    },
+    {
+      "id": "2026-09-08-11-30-12-15-gap-studio-1",
+      "date": "2026-09-08",
+      "day": "Martes",
+      "start": "11:30",
+      "end": "12:15",
+      "room": "Studio 1",
+      "name": "GAP"
+    },
+    {
+      "id": "2026-09-08-11-30-11-45-xpress-gl-teo-zona-cross",
+      "date": "2026-09-08",
+      "day": "Martes",
+      "start": "11:30",
+      "end": "11:45",
+      "room": "Zona Cross",
+      "name": "XPRESS GLÚTEO"
+    },
+    {
+      "id": "2026-09-08-13-00-13-45-virtual-cycle-sala-cycle",
+      "date": "2026-09-08",
+      "day": "Martes",
+      "start": "13:00",
+      "end": "13:45",
+      "room": "Sala Cycle",
+      "name": "VIRTUAL CYCLE"
+    },
+    {
+      "id": "2026-09-08-13-00-13-15-xpress-gl-teo-zona-cross",
+      "date": "2026-09-08",
+      "day": "Martes",
+      "start": "13:00",
+      "end": "13:15",
+      "room": "Zona Cross",
+      "name": "XPRESS GLÚTEO"
+    },
+    {
+      "id": "2026-09-08-14-15-15-00-boxing-zona-funcional",
+      "date": "2026-09-08",
+      "day": "Martes",
+      "start": "14:15",
+      "end": "15:00",
+      "room": "Zona Funcional",
+      "name": "BOXING"
+    },
+    {
+      "id": "2026-09-08-14-15-15-00-cycle-sala-cycle",
+      "date": "2026-09-08",
+      "day": "Martes",
+      "start": "14:15",
+      "end": "15:00",
+      "room": "Sala Cycle",
+      "name": "CYCLE"
+    },
+    {
+      "id": "2026-09-08-14-15-15-00-power-yoga-studio-2",
+      "date": "2026-09-08",
+      "day": "Martes",
+      "start": "14:15",
+      "end": "15:00",
+      "room": "Studio 2",
+      "name": "POWER YOGA"
+    },
+    {
+      "id": "2026-09-08-14-30-15-15-body-pump-studio-1",
+      "date": "2026-09-08",
+      "day": "Martes",
+      "start": "14:30",
+      "end": "15:15",
+      "room": "Studio 1",
+      "name": "BODY PUMP"
+    },
+    {
+      "id": "2026-09-08-15-00-15-15-xpress-gl-teo-zona-cross",
+      "date": "2026-09-08",
+      "day": "Martes",
+      "start": "15:00",
+      "end": "15:15",
+      "room": "Zona Cross",
+      "name": "XPRESS GLÚTEO"
+    },
+    {
+      "id": "2026-09-08-15-30-16-15-dance-studio-1",
+      "date": "2026-09-08",
+      "day": "Martes",
+      "start": "15:30",
+      "end": "16:15",
+      "room": "Studio 1",
+      "name": "DANCE"
+    },
+    {
+      "id": "2026-09-08-16-15-16-45-core-trx-studio-1",
+      "date": "2026-09-08",
+      "day": "Martes",
+      "start": "16:15",
+      "end": "16:45",
+      "room": "Studio 1",
+      "name": "CORE TRX"
+    },
+    {
+      "id": "2026-09-08-17-00-17-45-virtual-cycle-sala-cycle",
+      "date": "2026-09-08",
+      "day": "Martes",
+      "start": "17:00",
+      "end": "17:45",
+      "room": "Sala Cycle",
+      "name": "VIRTUAL CYCLE"
+    },
+    {
+      "id": "2026-09-08-17-15-18-00-pilates-stretching-studio-2",
+      "date": "2026-09-08",
+      "day": "Martes",
+      "start": "17:15",
+      "end": "18:00",
+      "room": "Studio 2",
+      "name": "PILATES STRETCHING"
+    },
+    {
+      "id": "2026-09-08-17-30-18-15-gap-studio-1",
+      "date": "2026-09-08",
+      "day": "Martes",
+      "start": "17:30",
+      "end": "18:15",
+      "room": "Studio 1",
+      "name": "GAP"
+    },
+    {
+      "id": "2026-09-08-17-30-17-45-xpress-gl-teo-zona-cross",
+      "date": "2026-09-08",
+      "day": "Martes",
+      "start": "17:30",
+      "end": "17:45",
+      "room": "Zona Cross",
+      "name": "XPRESS GLÚTEO"
+    },
+    {
+      "id": "2026-09-08-18-15-19-00-cycle-sala-cycle",
+      "date": "2026-09-08",
+      "day": "Martes",
+      "start": "18:15",
+      "end": "19:00",
+      "room": "Sala Cycle",
+      "name": "CYCLE"
+    },
+    {
+      "id": "2026-09-08-18-15-19-00-pilates-flow-studio-2",
+      "date": "2026-09-08",
+      "day": "Martes",
+      "start": "18:15",
+      "end": "19:00",
+      "room": "Studio 2",
+      "name": "PILATES FLOW"
+    },
+    {
+      "id": "2026-09-08-18-30-19-15-body-combat-studio-1",
+      "date": "2026-09-08",
+      "day": "Martes",
+      "start": "18:30",
+      "end": "19:15",
+      "room": "Studio 1",
+      "name": "BODY COMBAT"
+    },
+    {
+      "id": "2026-09-08-18-30-19-15-boxing-zona-funcional",
+      "date": "2026-09-08",
+      "day": "Martes",
+      "start": "18:30",
+      "end": "19:15",
+      "room": "Zona Funcional",
+      "name": "BOXING"
+    },
+    {
+      "id": "2026-09-08-19-15-20-00-barre-studio-2",
+      "date": "2026-09-08",
+      "day": "Martes",
+      "start": "19:15",
+      "end": "20:00",
+      "room": "Studio 2",
+      "name": "BARRE"
+    },
+    {
+      "id": "2026-09-08-19-15-20-00-cycle-sala-cycle",
+      "date": "2026-09-08",
+      "day": "Martes",
+      "start": "19:15",
+      "end": "20:00",
+      "room": "Sala Cycle",
+      "name": "CYCLE"
+    },
+    {
+      "id": "2026-09-08-19-15-19-30-xpress-gl-teo-zona-cross",
+      "date": "2026-09-08",
+      "day": "Martes",
+      "start": "19:15",
+      "end": "19:30",
+      "room": "Zona Cross",
+      "name": "XPRESS GLÚTEO"
+    },
+    {
+      "id": "2026-09-08-19-30-20-15-body-pump-studio-1",
+      "date": "2026-09-08",
+      "day": "Martes",
+      "start": "19:30",
+      "end": "20:15",
+      "room": "Studio 1",
+      "name": "BODY PUMP"
+    },
+    {
+      "id": "2026-09-08-19-30-20-30-hyrox-zona-cross",
+      "date": "2026-09-08",
+      "day": "Martes",
+      "start": "19:30",
+      "end": "20:30",
+      "room": "Zona Cross",
+      "name": "HYROX"
+    },
+    {
+      "id": "2026-09-08-20-15-21-15-power-yoga-studio-2",
+      "date": "2026-09-08",
+      "day": "Martes",
+      "start": "20:15",
+      "end": "21:15",
+      "room": "Studio 2",
+      "name": "POWER YOGA"
+    },
+    {
+      "id": "2026-09-08-20-30-21-15-virtual-cycle-sala-cycle",
+      "date": "2026-09-08",
+      "day": "Martes",
       "start": "20:30",
       "end": "21:15",
       "room": "Sala Cycle",
