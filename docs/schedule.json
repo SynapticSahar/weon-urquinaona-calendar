@@ -2,7 +2,7 @@
   "source": "https://www.weonclub.com/horarios-clases?club=17",
   "club": "We/On",
   "timezone": "Europe/Madrid",
-  "updated_at": "2026-08-12T19:54:26.893305+02:00",
+  "updated_at": "2026-08-13T07:37:02.383451+02:00",
   "classes": [
     {
       "id": "2026-08-10-07-15-08-00-cross-zona-cross",
@@ -840,6 +840,15 @@
       "end": "13:30",
       "room": "Zona Cross",
       "name": "XPRESS MOBILITY"
+    },
+    {
+      "id": "2026-08-13-14-15-15-00-boxing-zona-funcional",
+      "date": "2026-08-13",
+      "day": "Jueves",
+      "start": "14:15",
+      "end": "15:00",
+      "room": "Zona Funcional",
+      "name": "BOXING"
     },
     {
       "id": "2026-08-13-14-15-15-00-cycle-sala-cycle",
@@ -2631,24 +2640,6 @@
       "end": "11:15",
       "room": "Sala Cycle",
       "name": "CYCLE"
-    },
-    {
-      "id": "2026-08-22-10-30-10-45-xpress-gl-teo-zona-cross",
-      "date": "2026-08-22",
-      "day": "Sábado",
-      "start": "10:30",
-      "end": "10:45",
-      "room": "Zona Cross",
-      "name": "XPRESS GLÚTEO"
-    },
-    {
-      "id": "2026-08-22-10-45-11-00-xpress-mobility-zona-cross",
-      "date": "2026-08-22",
-      "day": "Sábado",
-      "start": "10:45",
-      "end": "11:00",
-      "room": "Zona Cross",
-      "name": "XPRESS MOBILITY"
     },
     {
       "id": "2026-08-22-11-00-11-45-barre-studio-2",
@@ -7653,6 +7644,60 @@
       "end": "21:15",
       "room": "Sala Cycle",
       "name": "VIRTUAL CYCLE"
+    },
+    {
+      "id": "2026-09-11-09-30-10-15-global-training-studio-1",
+      "date": "2026-09-11",
+      "day": "Viernes",
+      "start": "09:30",
+      "end": "10:15",
+      "room": "Studio 1",
+      "name": "GLOBAL TRAINING"
+    },
+    {
+      "id": "2026-09-11-10-30-11-15-cycle-sala-cycle",
+      "date": "2026-09-11",
+      "day": "Viernes",
+      "start": "10:30",
+      "end": "11:15",
+      "room": "Sala Cycle",
+      "name": "CYCLE"
+    },
+    {
+      "id": "2026-09-11-10-30-11-30-pilates-studio-2",
+      "date": "2026-09-11",
+      "day": "Viernes",
+      "start": "10:30",
+      "end": "11:30",
+      "room": "Studio 2",
+      "name": "PILATES"
+    },
+    {
+      "id": "2026-09-11-11-30-12-15-body-pump-studio-1",
+      "date": "2026-09-11",
+      "day": "Viernes",
+      "start": "11:30",
+      "end": "12:15",
+      "room": "Studio 1",
+      "name": "BODY PUMP"
+    },
+    {
+      "id": "2026-09-11-11-30-12-15-power-yoga-studio-2",
+      "date": "2026-09-11",
+      "day": "Viernes",
+      "start": "11:30",
+      "end": "12:15",
+      "room": "Studio 2",
+      "name": "POWER YOGA"
+    },
+    {
+      "id": "2026-09-11-17-00-17-30-cross-zona-cross",
+      "date": "2026-09-11",
+      "day": "Viernes",
+      "start": "17:00",
+      "end": "17:30",
+      "room": "Zona Cross",
+      "name": "CROSS"
     }
   ]
 }
