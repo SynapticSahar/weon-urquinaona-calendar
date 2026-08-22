@@ -2,7 +2,7 @@
   "source": "https://www.weonclub.com/horarios-clases?club=17",
   "club": "We/On",
   "timezone": "Europe/Madrid",
-  "updated_at": "2026-08-21T19:23:17.865910+02:00",
+  "updated_at": "2026-08-22T06:26:48.620513+02:00",
   "classes": [
     {
       "id": "2026-08-17-07-15-08-00-cross-zona-cross",
@@ -8328,6 +8328,141 @@
       "end": "19:00",
       "room": "Zona Cross",
       "name": "XPRESS MOBILITY"
+    },
+    {
+      "id": "2026-09-20-10-00-10-45-pilates-studio-2",
+      "date": "2026-09-20",
+      "day": "Domingo",
+      "start": "10:00",
+      "end": "10:45",
+      "room": "Studio 2",
+      "name": "PILATES"
+    },
+    {
+      "id": "2026-09-20-10-30-11-15-cycle-sala-cycle",
+      "date": "2026-09-20",
+      "day": "Domingo",
+      "start": "10:30",
+      "end": "11:15",
+      "room": "Sala Cycle",
+      "name": "CYCLE"
+    },
+    {
+      "id": "2026-09-20-10-30-10-45-xpress-gl-teo-zona-cross",
+      "date": "2026-09-20",
+      "day": "Domingo",
+      "start": "10:30",
+      "end": "10:45",
+      "room": "Zona Cross",
+      "name": "XPRESS GLÚTEO"
+    },
+    {
+      "id": "2026-09-20-10-45-11-00-xpress-mobility-zona-cross",
+      "date": "2026-09-20",
+      "day": "Domingo",
+      "start": "10:45",
+      "end": "11:00",
+      "room": "Zona Cross",
+      "name": "XPRESS MOBILITY"
+    },
+    {
+      "id": "2026-09-20-11-00-12-00-power-yoga-studio-2",
+      "date": "2026-09-20",
+      "day": "Domingo",
+      "start": "11:00",
+      "end": "12:00",
+      "room": "Studio 2",
+      "name": "POWER YOGA"
+    },
+    {
+      "id": "2026-09-20-11-15-11-30-xpress-gl-teo-zona-cross",
+      "date": "2026-09-20",
+      "day": "Domingo",
+      "start": "11:15",
+      "end": "11:30",
+      "room": "Zona Cross",
+      "name": "XPRESS GLÚTEO"
+    },
+    {
+      "id": "2026-09-20-11-30-12-15-body-pump-studio-1",
+      "date": "2026-09-20",
+      "day": "Domingo",
+      "start": "11:30",
+      "end": "12:15",
+      "room": "Studio 1",
+      "name": "BODY PUMP"
+    },
+    {
+      "id": "2026-09-20-11-30-11-45-xpress-mobility-zona-cross",
+      "date": "2026-09-20",
+      "day": "Domingo",
+      "start": "11:30",
+      "end": "11:45",
+      "room": "Zona Cross",
+      "name": "XPRESS MOBILITY"
+    },
+    {
+      "id": "2026-09-20-12-15-12-30-xpress-gl-teo-zona-cross",
+      "date": "2026-09-20",
+      "day": "Domingo",
+      "start": "12:15",
+      "end": "12:30",
+      "room": "Zona Cross",
+      "name": "XPRESS GLÚTEO"
+    },
+    {
+      "id": "2026-09-20-13-00-13-45-virtual-cycle-sala-cycle",
+      "date": "2026-09-20",
+      "day": "Domingo",
+      "start": "13:00",
+      "end": "13:45",
+      "room": "Sala Cycle",
+      "name": "VIRTUAL CYCLE"
+    },
+    {
+      "id": "2026-09-20-17-00-17-15-xpress-gl-teo-zona-funcional",
+      "date": "2026-09-20",
+      "day": "Domingo",
+      "start": "17:00",
+      "end": "17:15",
+      "room": "Zona Funcional",
+      "name": "XPRESS GLÚTEO"
+    },
+    {
+      "id": "2026-09-20-17-30-18-15-pilates-studio-2",
+      "date": "2026-09-20",
+      "day": "Domingo",
+      "start": "17:30",
+      "end": "18:15",
+      "room": "Studio 2",
+      "name": "PILATES"
+    },
+    {
+      "id": "2026-09-20-18-00-18-30-hiit-45-zona-funcional",
+      "date": "2026-09-20",
+      "day": "Domingo",
+      "start": "18:00",
+      "end": "18:30",
+      "room": "Zona Funcional",
+      "name": "HIIT 45"
+    },
+    {
+      "id": "2026-09-20-18-30-18-45-xpress-mobility-zona-funcional",
+      "date": "2026-09-20",
+      "day": "Domingo",
+      "start": "18:30",
+      "end": "18:45",
+      "room": "Zona Funcional",
+      "name": "XPRESS MOBILITY"
+    },
+    {
+      "id": "2026-09-20-19-15-19-30-xpress-gl-teo-zona-funcional",
+      "date": "2026-09-20",
+      "day": "Domingo",
+      "start": "19:15",
+      "end": "19:30",
+      "room": "Zona Funcional",
+      "name": "XPRESS GLÚTEO"
     }
   ]
 }
